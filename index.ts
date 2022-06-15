@@ -72,4 +72,6 @@ const get = async <T>(url: string): Promise<T> => {
     console.log(`Found ${diff.length} new chains`);
     writeFileSync("chain-list.json", [...currentChainlist, ...diff]);
   }
+
+  // TODO: Check if any chain has been changed or removed
 })();
