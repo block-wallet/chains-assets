@@ -58,16 +58,18 @@ const get = async <T>(url: string): Promise<T> => {
     };
   };
 
-  // Fetch chainlist json
+  // Fetch new chainlist json
   const newChainlist = (
     await get<Chain[]>("https://chainid.network/chains.json")
   ).map(parseChain);
 
+  // Read current chainlist json
   const currentChainlist = readFileSync<Chain[]>("chain-list.json");
+
+  // Check for new chains
   const diff = newChainlist.filter(
     (c) => !currentChainlist.some((cc) => cc.chainId === c.chainId)
   );
-
   if (diff.length > 0) {
     console.log(`Found ${diff.length} new chains`);
     writeFileSync("chain-list.json", [...currentChainlist, ...diff]);
