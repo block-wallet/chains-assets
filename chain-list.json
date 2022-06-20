@@ -199,6 +199,7 @@
     "name": "Optimism",
     "chain": "ETH",
     "logo": "optimism",
+    "nativeCurrencyIcon": "ethereum",
     "rpc": [
       "https://optimism-node.blockwallet.io",
       "https://mainnet.optimism.io"
@@ -445,6 +446,7 @@
     "logo": "cronos",
     "faucets": [],
     "nativeCurrency": { "name": "Cronos", "symbol": "CRO", "decimals": 18 },
+    "nativeCurrencyIcon": "https://github.com/block-wallet/assets/blob/master/blockchains/cronos/info/logo.png",
     "infoURL": "https://cronos.org/",
     "shortName": "cro",
     "chainId": 25,
@@ -553,6 +555,7 @@
       "symbol": "RBTC",
       "decimals": 18
     },
+    "nativeCurrencyIcon": "currencies/rbtc",
     "infoURL": "https://rsk.co",
     "shortName": "rsk",
     "chainId": 30,
@@ -580,6 +583,7 @@
       "symbol": "tRBTC",
       "decimals": 18
     },
+    "nativeCurrencyIcon": "currencies/rbtc",
     "infoURL": "https://rsk.co",
     "shortName": "trsk",
     "chainId": 31,
@@ -817,6 +821,7 @@
     "rpc": ["https://rpc.coinex.net"],
     "faucets": [],
     "logo": "csc",
+    "nativeCurrencyIcon": "currencies/cet",
     "nativeCurrency": {
       "name": "CoinEx Chain Native Token",
       "symbol": "cet",
@@ -923,6 +928,7 @@
       "symbol": "BNB",
       "decimals": 18
     },
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/smartchain/info/logo.png",
     "infoURL": "https://www.binance.org",
     "shortName": "bnb",
     "logo": "binance",
@@ -1702,6 +1708,7 @@
       "https://faucet.prussia.dev/xdai"
     ],
     "nativeCurrency": { "name": "xDAI", "symbol": "xDAI", "decimals": 18 },
+    "nativeCurrencyIcon": "currencies/xdai",
     "infoURL": "https://developers.gnosischain.com",
     "shortName": "gno",
     "chainId": 100,
@@ -1999,6 +2006,7 @@
     ],
     "faucets": [],
     "nativeCurrency": { "name": "MATIC", "symbol": "MATIC", "decimals": 18 },
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/polygon/info/logo.png",
     "infoURL": "https://polygon.technology/",
     "shortName": "MATIC",
     "chainId": 137,
@@ -2218,6 +2226,7 @@
     "rpc": ["https://arbitrum.xdaichain.com"],
     "faucets": [],
     "nativeCurrency": { "name": "xDAI", "symbol": "xDAI", "decimals": 18 },
+    "nativeCurrencyIcon":"currencies/xdai",
     "infoURL": "https://xdaichain.com",
     "shortName": "aox",
     "chainId": 200,
@@ -2372,6 +2381,7 @@
     "rpc": ["https://fantom-node.blockwallet.io", "https://rpc.ftm.tools"],
     "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
     "nativeCurrency": { "name": "Fantom", "symbol": "FTM", "decimals": 18 },
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/fantom/info/logo.png",
     "infoURL": "https://fantom.foundation",
     "shortName": "ftm",
     "chainId": 250,
@@ -5534,6 +5544,7 @@
       "symbol": "BCH",
       "decimals": 18
     },
+    "nativeCurrencyIcon": "https://github.com/block-wallet/assets/blob/master/blockchains/bitcoincash/info/logo.png",
     "infoURL": "https://smartbch.org/",
     "shortName": "smartbch",
     "chainId": 10000,
@@ -5553,6 +5564,7 @@
       "symbol": "BCHT",
       "decimals": 18
     },
+    "nativeCurrencyIcon": "https://github.com/block-wallet/assets/blob/master/blockchains/bitcoincash/info/logo.png",
     "infoURL": "http://smartbch.org/",
     "shortName": "smartbchtest",
     "chainId": 10001,
@@ -6076,6 +6088,7 @@
     "chain": "ETH",
     "networkId": 42161,
     "nativeCurrency": { "name": "Ether", "symbol": "ETH", "decimals": 18 },
+    "nativeCurrencyIcon": "ethereum",
     "rpc": [
       "https://arbitrum-node.blockwallet.io",
       "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
@@ -6108,6 +6121,7 @@
     "chain": "CELO",
     "networkId": 42220,
     "nativeCurrency": { "name": "CELO", "symbol": "CELO", "decimals": 18 },
+    "nativeCurrencyIcon": "https://github.com/block-wallet/assets/blob/master/blockchains/celo/info/logo.png",
     "rpc": ["https://forno.celo.org", "wss://forno.celo.org/ws"],
     "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
     "infoURL": "https://docs.celo.org/",
@@ -6211,6 +6225,7 @@
     ],
     "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
     "nativeCurrency": { "name": "Avalanche", "symbol": "AVAX", "decimals": 18 },
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/avalanchec/info/logo.png",
     "infoURL": "https://www.avax.network/",
     "shortName": "Avalanche",
     "logo": "avalanche",
@@ -7985,6 +8000,7 @@
     "rpc": ["https://mainnet.aurora.dev"],
     "faucets": [],
     "nativeCurrency": { "name": "Ether", "symbol": "ETH", "decimals": 18 },
+    "nativeCurrencyIcon": "ethereum",
     "infoURL": "https://aurora.dev",
     "shortName": "aurora",
     "chainId": 1313161554,
