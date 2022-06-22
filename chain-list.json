@@ -2226,7 +2226,7 @@
     "rpc": ["https://arbitrum.xdaichain.com"],
     "faucets": [],
     "nativeCurrency": { "name": "xDAI", "symbol": "xDAI", "decimals": 18 },
-    "nativeCurrencyIcon":"currencies/xdai",
+    "nativeCurrencyIcon": "currencies/xdai",
     "infoURL": "https://xdaichain.com",
     "shortName": "aox",
     "chainId": 200,
@@ -2243,10 +2243,7 @@
   {
     "name": "Freight Trust Network",
     "chain": "EDI",
-    "rpc": [
-      "http://13.57.207.168:3435",
-      "https://app.freighttrust.net/ftn/${API_KEY}"
-    ],
+    "rpc": ["http://13.57.207.168:3435"],
     "faucets": ["http://faucet.freight.sh"],
     "nativeCurrency": {
       "name": "Freight Trust Native",
@@ -6091,7 +6088,6 @@
     "nativeCurrencyIcon": "ethereum",
     "rpc": [
       "https://arbitrum-node.blockwallet.io",
-      "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
       "https://arb1.arbitrum.io/rpc"
     ],
     "faucets": [],
