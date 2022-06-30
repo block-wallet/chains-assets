@@ -30,7 +30,8 @@
   "10": {
     "rpcs": ["https://optimism-node.blockwallet.io"],
     "scanApi": "https://api-optimistic.etherscan.io",
-    "logo": "optimism"
+    "logo": "optimism",
+    "nativeCurrencyIcon": "currencies/ethereum"
   },
   "16": { "scanApi": "https://coston-explorer.flare.network" },
   "18": {
@@ -53,8 +54,8 @@
   "28": {
     "logo": "boba"
   },
-  "30": { "logo": "rsk" },
-  "31": { "logo": "rsk" },
+  "30": { "logo": "rsk", "nativeCurrencyIcon": "currencies/rbtc" },
+  "31": { "logo": "rsk", "nativeCurrencyIcon": "currencies/rbtc" },
   "40": { "logo": "telos" },
   "41": { "logo": "telos" },
   "43": { "logo": "crab" },
@@ -62,8 +63,8 @@
   "44": { "logo": "crab" },
   "50": { "logo": "xdc" },
   "51": { "logo": "xdc" },
-  "52": { "logo": "csc" },
-  "53": { "logo": "csc" },
+  "52": { "logo": "csc", "nativeCurrencyIcon": "currencies/cet" },
+  "53": { "logo": "csc", "nativeCurrencyIcon": "currencies/cet" },
   "55": { "logo": "zyx", "scanApi": "http://zyxscan.com" },
   "56": {
     "rpcs": ["https://bsc-node.blockwallet.io"],
@@ -85,7 +86,8 @@
   "66": { "logo": "okexchain" },
   "69": {
     "logo": "optimism",
-    "scanApi": "https://api-kovan-optimistic.etherscan.io"
+    "scanApi": "https://api-kovan-optimistic.etherscan.io",
+    "nativeCurrencyIcon": "currencies/ethereum"
   },
   "70": {
     "logo": "hoo",
@@ -117,7 +119,11 @@
     "logo": "binance"
   },
   "99": { "scanApi": "https://blockscout.com/poa/core" },
-  "100": { "logo": "gnosis", "scanApi": "https://blockscout.com/xdai/mainnet" },
+  "100": {
+    "logo": "gnosis",
+    "scanApi": "https://blockscout.com/xdai/mainnet",
+    "nativeCurrencyIcon": "currencies/xdai"
+  },
   "106": { "logo": "velas" },
   "108": {
     "logo": "thundercore"
@@ -175,7 +181,15 @@
   },
   "200": {
     "logo": "aox",
-    "scanApi": "https://blockscout.com/xdai/arbitrum"
+    "scanApi": "https://blockscout.com/xdai/aox",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://blockscout.com/xdai/aox",
+        "standard": "EIP3091"
+      }
+    ],
+    "nativeCurrencyIcon": "currencies/xdai"
   },
   "225": { "logo": "lachain", "scanApi": "https://scan.lachain.io" },
   "226": { "logo": "lachain", "scanApi": "https://scan-test.lachain.io" },
@@ -199,7 +213,8 @@
   },
   "300": {
     "logo": "optimism",
-    "scanApi": "https://blockscout.com/xdai/optimism"
+    "scanApi": "https://blockscout.com/xdai/optimism",
+    "nativeCurrencyIcon": "currencies/xdai"
   },
   "321": { "logo": "kcc" },
   "322": { "logo": "kcc" },
@@ -213,7 +228,7 @@
   "363": { "logo": "theta" },
   "364": { "logo": "theta" },
   "365": { "logo": "theta" },
-  "420": { "logo": "optimism" },
+  "420": { "logo": "optimism", "nativeCurrencyIcon": "currencies/ethereum" },
   "534": { "scanApi": "https://candleexplorer.com" },
   "555": { "scanApi": "https://exp.velaverse.io" },
   "588": { "logo": "metis", "scanApi": "https://stardust-explorer.metis.io" },
@@ -399,7 +414,8 @@
   "42161": {
     "rpcs": ["https://arbitrum-node.blockwallet.io"],
     "scanApi": "https://api.arbiscan.io",
-    "logo": "arbitrum"
+    "logo": "arbitrum",
+    "nativeCurrencyIcon": "currencies/ethereum"
   },
   "42220": {
     "logo": "celo",
@@ -473,7 +489,8 @@
   "333999": { "logo": "polis" },
   "421611": {
     "scanApi": "https://api-testnet.arbiscan.io",
-    "logo": "arbitrum"
+    "logo": "arbitrum",
+    "nativeCurrencyIcon": "currencies/ethereum"
   },
   "1313114": { "scanApi": "https://ethoprotocol.com" },
   "1337802": { "scanApi": "https://explorer.kiln.themerge.dev" },

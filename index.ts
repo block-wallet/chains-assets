@@ -8,6 +8,7 @@ type Chain = {
   rpc: string[];
   faucets: string[];
   nativeCurrency: { name: string; symbol: string; decimals: number };
+  nativeCurrencyIcon: string;
   infoURL: string;
   shortName: string;
   chainId: number;
@@ -68,6 +69,7 @@ const overloadChainData = (chain: Chain, ecd: Chain): Chain => {
       chain.faucets = Array.from(new Set([...chain.faucets, ...ecd.faucets]));
     else chain.faucets = ecd.faucets;
   if (ecd.nativeCurrency) chain.nativeCurrency = ecd.nativeCurrency;
+  if (ecd.nativeCurrencyIcon) chain.nativeCurrencyIcon = ecd.nativeCurrencyIcon;
   if (ecd.infoURL) chain.infoURL = ecd.infoURL;
   if (ecd.shortName) chain.shortName = ecd.shortName;
   if (ecd.chainId) chain.chainId = ecd.chainId;

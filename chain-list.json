@@ -212,6 +212,7 @@
         "standard": "none"
       }
     ],
+    "nativeCurrencyIcon": "currencies/ethereum",
     "logo": "optimism",
     "scanApi": "https://api-optimistic.etherscan.io"
   },
@@ -572,6 +573,7 @@
         "standard": "EIP3091"
       }
     ],
+    "nativeCurrencyIcon": "currencies/rbtc",
     "logo": "rsk"
   },
   {
@@ -591,6 +593,7 @@
     "shortName": "trsk",
     "chainId": 31,
     "networkId": 31,
+    "nativeCurrencyIcon": "currencies/rbtc",
     "logo": "rsk"
   },
   {
@@ -838,6 +841,7 @@
         "standard": "none"
       }
     ],
+    "nativeCurrencyIcon": "currencies/cet",
     "logo": "csc"
   },
   {
@@ -861,6 +865,7 @@
         "standard": "none"
       }
     ],
+    "nativeCurrencyIcon": "currencies/cet",
     "logo": "csc"
   },
   {
@@ -1204,6 +1209,7 @@
     "shortName": "okov",
     "chainId": 69,
     "networkId": 69,
+    "nativeCurrencyIcon": "currencies/ethereum",
     "logo": "optimism",
     "scanApi": "https://api-kovan-optimistic.etherscan.io"
   },
@@ -1730,6 +1736,7 @@
         "standard": "EIP3091"
       }
     ],
+    "nativeCurrencyIcon": "currencies/xdai",
     "logo": "gnosis",
     "scanApi": "https://blockscout.com/xdai/mainnet"
   },
@@ -2282,11 +2289,17 @@
         "name": "blockscout",
         "url": "https://blockscout.com/xdai/arbitrum",
         "standard": "EIP3091"
+      },
+      {
+        "name": "blockscout",
+        "url": "https://blockscout.com/xdai/aox",
+        "standard": "EIP3091"
       }
     ],
     "parent": { "chain": "eip155-100", "type": "L2" },
+    "nativeCurrencyIcon": "currencies/xdai",
     "logo": "aox",
-    "scanApi": "https://blockscout.com/xdai/arbitrum"
+    "scanApi": "https://blockscout.com/xdai/aox"
   },
   {
     "name": "Freight Trust Network",
@@ -2564,6 +2577,7 @@
         "standard": "EIP3091"
       }
     ],
+    "nativeCurrencyIcon": "currencies/xdai",
     "logo": "optimism",
     "scanApi": "https://blockscout.com/xdai/optimism"
   },
@@ -2850,6 +2864,7 @@
     "shortName": "ogor",
     "chainId": 420,
     "networkId": 420,
+    "nativeCurrencyIcon": "currencies/ethereum",
     "logo": "optimism"
   },
   {
@@ -6268,6 +6283,7 @@
       "chain": "eip155-1",
       "bridges": [{ "url": "https://bridge.arbitrum.io" }]
     },
+    "nativeCurrencyIcon": "currencies/ethereum",
     "logo": "arbitrum",
     "scanApi": "https://api.arbiscan.io"
   },
@@ -7588,6 +7604,7 @@
       "chain": "eip155-4",
       "bridges": [{ "url": "https://bridge.arbitrum.io" }]
     },
+    "nativeCurrencyIcon": "currencies/ethereum",
     "logo": "arbitrum",
     "scanApi": "https://api-testnet.arbiscan.io"
   },
