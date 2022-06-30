@@ -14,7 +14,12 @@
   },
   "5": {
     "scanApi": "https://api-goerli.etherscan.io",
-    "logo": "ethereum"
+    "logo": "ethereum",
+    "nativeCurrency": {
+      "name": "Görli Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    }
   },
   "8": {
     "logo": "ubiq"
