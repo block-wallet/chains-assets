@@ -307,7 +307,8 @@
         "url": "https://coston-explorer.flare.network",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://coston-explorer.flare.network"
   },
   {
     "name": "ThaiChain 2.0 ThaiFi",
@@ -504,7 +505,8 @@
         "url": "https://exp.shibachain.net",
         "standard": "none"
       }
-    ]
+    ],
+    "scanApi": "https://exp.shibachain.net"
   },
   {
     "name": "Boba Network Rinkeby Testnet",
@@ -713,7 +715,9 @@
     "infoURL": "https://kovan-testnet.github.io/website",
     "shortName": "kov",
     "chainId": 42,
-    "networkId": 42
+    "networkId": 42,
+    "logo": "ethereum",
+    "scanApi": "https://api-kovan.etherscan.io"
   },
   {
     "name": "Darwinia Pangolin Testnet",
@@ -898,7 +902,9 @@
     "networkId": 55,
     "explorers": [
       { "name": "zyxscan", "url": "https://zyxscan.com", "standard": "none" }
-    ]
+    ],
+    "logo": "zyx",
+    "scanApi": "http://zyxscan.com"
   },
   {
     "name": "Binance Smart Chain Mainnet",
@@ -979,7 +985,8 @@
         "url": "https://explorer.ont.io",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "logo": "ontology"
   },
   {
     "name": "EOS Mainnet",
@@ -1196,7 +1203,9 @@
     "infoURL": "https://optimism.io",
     "shortName": "okov",
     "chainId": 69,
-    "networkId": 69
+    "networkId": 69,
+    "logo": "optimism",
+    "scanApi": "https://api-kovan-optimistic.etherscan.io"
   },
   {
     "name": "Hoo Smart Chain",
@@ -1268,7 +1277,8 @@
         "icon": "etherscan",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://explorer.idchain.one"
   },
   {
     "name": "Mix",
@@ -1344,7 +1354,8 @@
         "url": "https://scan.zenithchain.co",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://scan.zenithchain.co"
   },
   {
     "name": "GeneChain",
@@ -1380,7 +1391,8 @@
         "url": "https://vilnius.scan.zenithchain.co",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://vilnius.scan.zenithchain.co"
   },
   {
     "name": "Meter Mainnet",
@@ -1627,7 +1639,8 @@
         "url": "https://explorer.nextsmartchain.com",
         "standard": "none"
       }
-    ]
+    ],
+    "scanApi": "https://explorer.nextsmartchain.com"
   },
   {
     "name": "Binance Smart Chain Testnet",
@@ -2157,7 +2170,8 @@
     "networkId": 180,
     "explorers": [
       { "name": "AME Scan", "url": "https://amescan.io", "standard": "EIP3091" }
-    ]
+    ],
+    "scanApi": "https://amescan.io"
   },
   {
     "name": "Seele Mainnet",
@@ -2175,7 +2189,8 @@
         "url": "https://seeleview.net",
         "standard": "none"
       }
-    ]
+    ],
+    "scanApi": "https://seeleview.net"
   },
   {
     "name": "BMC Mainnet",
@@ -2405,7 +2420,8 @@
         "url": "https://explorer.energyweb.org",
         "standard": "none"
       }
-    ]
+    ],
+    "scanApi": "https://explorer.energyweb.org"
   },
   {
     "name": "Fantom Opera",
@@ -2935,7 +2951,8 @@
         "url": "https://candleexplorer.com",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://candleexplorer.com"
   },
   {
     "name": "Vela1 Chain Mainnet",
@@ -2957,7 +2974,8 @@
         "url": "https://exp.velaverse.io",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://exp.velaverse.io"
   },
   {
     "name": "Tao Network",
@@ -3884,8 +3902,14 @@
         "url": "https://explorer.entercoin.net",
         "icon": "enter",
         "standard": "EIP3091"
+      },
+      {
+        "name": "entercoin",
+        "url": "https://scan.entercoin.net",
+        "standard": "none"
       }
-    ]
+    ],
+    "scanApi": "https://scan.entercoin.net"
   },
   {
     "name": "HALO Mainnet",
@@ -3903,7 +3927,8 @@
         "url": "https://browser.halo.land",
         "standard": "none"
       }
-    ]
+    ],
+    "scanApi": "https://browser.halo.land"
   },
   {
     "name": "Moonbeam",
@@ -4118,7 +4143,8 @@
         "url": "https://cubescan.network",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://openapi.cubescan.network"
   },
   {
     "name": "Cube Chain Testnet",
@@ -4147,7 +4173,8 @@
         "url": "https://testnet.cubescan.network",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://openapi-testnet.cubescan.network"
   },
   {
     "name": "Teslafunds",
@@ -4262,7 +4289,8 @@
         "url": "https://explorer.testnet.cloudwalk.io",
         "standard": "none"
       }
-    ]
+    ],
+    "scanApi": "https://explorer.testnet.cloudwalk.io"
   },
   {
     "name": "CloudWalk Mainnet",
@@ -4284,7 +4312,8 @@
         "url": "https://explorer.mainnet.cloudwalk.io",
         "standard": "none"
       }
-    ]
+    ],
+    "scanApi": "https://explorer.mainnet.cloudwalk.io"
   },
   {
     "name": "420coin",
@@ -4540,7 +4569,8 @@
         "url": "https://scan.vcex.xyz",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://scan.vcex.xyz"
   },
   {
     "name": "Kortho Mainnet",
@@ -4576,7 +4606,8 @@
         "icon": "techpay",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://tpcscan.com"
   },
   {
     "name": "EZChain C-Chain Mainnet",
@@ -4595,7 +4626,8 @@
         "url": "https://cchain-explorer.ezchain.com",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://cchain-explorer.ezchain.com"
   },
   {
     "name": "EZChain C-Chain Testnet",
@@ -4614,7 +4646,8 @@
         "url": "https://testnet-cchain-explorer.ezchain.com",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://testnet-cchain-explorer.ezchain.com"
   },
   {
     "name": "CENNZnet Rata",
@@ -4677,7 +4710,8 @@
         "url": "https://explorer.testnet.web3q.io",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://explorer.testnet.web3q.io"
   },
   {
     "name": "Web3Q Galileo",
@@ -4695,7 +4729,8 @@
         "url": "https://explorer.galileo.web3q.io",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://explorer.galileo.web3q.io"
   },
   {
     "name": "Paribu Net Mainnet",
@@ -4716,7 +4751,8 @@
         "icon": "explorer",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://explorer.paribu.network"
   },
   {
     "name": "Paribu Net Testnet",
@@ -4737,7 +4773,8 @@
         "icon": "explorer",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://testnet.paribuscan.com/"
   },
   {
     "name": "Bittex Mainnet",
@@ -4757,7 +4794,8 @@
         "icon": "etherscan",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://api.bittex.com"
   },
   {
     "name": "Crossbell",
@@ -4781,7 +4819,8 @@
         "url": "https://scan.crossbell.io",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://scan.crossbell.io"
   },
   {
     "name": "DYNO Mainnet",
@@ -4803,7 +4842,8 @@
         "url": "https://dynoscan.io",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://dynoscan.io"
   },
   {
     "name": "DYNO Testnet",
@@ -4825,7 +4865,8 @@
         "url": "https://testnet.dynoscan.io",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://testnet.dynoscan.io"
   },
   {
     "name": "YuanChain Mainnet",
@@ -5111,7 +5152,8 @@
         "url": "https://tanenbaum.io",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://tanenbaum.io"
   },
   {
     "name": "Digest Swarm Chain",
@@ -5202,7 +5244,8 @@
         "url": "https://scan.chain.pixie.xyz",
         "standard": "none"
       }
-    ]
+    ],
+    "scanApi": "https://scan.chain.pixie.xyz"
   },
   {
     "name": "Ella the heart",
@@ -5216,7 +5259,12 @@
     "chainId": 7027,
     "networkId": 7027,
     "explorers": [
-      { "name": "Ella", "url": "https://ella.network", "standard": "EIP3091" }
+      { "name": "Ella", "url": "https://ella.network", "standard": "EIP3091" },
+      {
+        "name": "ella",
+        "url": "https://explorer.ella.network",
+        "standard": "none"
+      }
     ]
   },
   {
@@ -5237,7 +5285,8 @@
         "url": "https://bx.shyft.network",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://bx.shyft.network/"
   },
   {
     "name": "Rise of the Warbots Testnet",
@@ -5313,7 +5362,8 @@
         "standard": "none",
         "icon": "teleport"
       }
-    ]
+    ],
+    "scanApi": "https://evm-explorer.testnet.teleport.network"
   },
   {
     "name": "Teleport Testnet",
@@ -5339,7 +5389,8 @@
         "standard": "none",
         "icon": "teleport"
       }
-    ]
+    ],
+    "scanApi": "https://evm-explorer.testnet.teleport.network"
   },
   {
     "name": "MDGL Testnet",
@@ -5497,7 +5548,8 @@
         "standard": "EIP3091",
         "icon": "mmt"
       }
-    ]
+    ],
+    "scanApi": "https://mmtscan.io"
   },
   {
     "name": "bloxberg",
@@ -5720,7 +5772,8 @@
         "icon": "quadrans",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://explorer.quadrans.io"
   },
   {
     "name": "Quadrans Blockchain Testnet",
@@ -5745,7 +5798,8 @@
         "icon": "quadrans",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://explorer.testnet.quadrans.io"
   },
   {
     "name": "WAGMI",
@@ -5787,7 +5841,8 @@
         "url": "https://bx.testnet.shyft.network",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://bx.testnet.shyft.network"
   },
   {
     "name": "Singularity ZERO Testnet",
@@ -5845,7 +5900,8 @@
         "icon": "phoenixplorer",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://phoenixplorer.com"
   },
   {
     "name": "MetaDot Mainnet",
@@ -5894,7 +5950,8 @@
         "url": "https://testnet.ivarscan.com",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://testnet.ivarscan.com"
   },
   {
     "name": "BTCIX Network",
@@ -5916,7 +5973,8 @@
         "url": "https://btcixscan.com",
         "standard": "none"
       }
-    ]
+    ],
+    "scanApi": "https://btcixscan.com"
   },
   {
     "name": "CENNZnet Azalea",
@@ -5955,7 +6013,8 @@
         "url": "https://explorer.omchain.io",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "http://explorer.omchain.io"
   },
   {
     "name": "Taycan",
@@ -5979,7 +6038,8 @@
         "url": "https://taycan-cosmoscan.hupayx.io",
         "standard": "none"
       }
-    ]
+    ],
+    "scanApi": "https://10.40.1.211:4000"
   },
   {
     "name": "Webchain",
@@ -6053,7 +6113,8 @@
         "url": "https://testnet-scan.piecenetwork.com",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://scan.test.piecenetwork.com"
   },
   {
     "name": "Ethersocial Network",
@@ -6251,7 +6312,8 @@
         "url": "https://testnet.explorer.emerald.oasis.dev",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://testnet.explorer.emerald.oasis.dev"
   },
   {
     "name": "Emerald Paratime Mainnet",
@@ -6274,7 +6336,8 @@
         "url": "https://explorer.emerald.oasis.dev",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://explorer.emerald.oasis.dev"
   },
   {
     "name": "Athereum",
@@ -6602,7 +6665,8 @@
         "icon": "ecredits",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://explorer.ecredits.com"
   },
   {
     "name": "eCredits Testnet",
@@ -6623,7 +6687,8 @@
         "icon": "ecredits",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://explorer.tst.ecredits.com"
   },
   {
     "name": "Condrieu",
@@ -6865,7 +6930,8 @@
         "url": "https://ivarscan.com",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://ivarscan.com"
   },
   {
     "name": "UB Smart Chain(testnet)",
@@ -7097,7 +7163,8 @@
         "icon": "crystal",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://scan.crystaleum.org"
   },
   {
     "name": "BROChain Mainnet",
@@ -7688,7 +7755,8 @@
         "url": "https://explorer.ethoprotocol.com",
         "standard": "none"
       }
-    ]
+    ],
+    "scanApi": "https://ethoprotocol.com"
   },
   {
     "name": "Xerom",
@@ -7758,7 +7826,8 @@
         "icon": "ethereum",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://explorer.kiln.themerge.dev"
   },
   {
     "name": "PlatON Dev Testnet",
@@ -7836,7 +7905,8 @@
         "url": "https://sepolia.otterscan.io",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "logo": "ethereum"
   },
   {
     "name": "PepChain Churchill",
@@ -7971,7 +8041,8 @@
         "url": "https://explorer.gather.network",
         "standard": "none"
       }
-    ]
+    ],
+    "scanApi": "https://explorer.gather.network"
   },
   {
     "name": "Neon EVM DevNet",
@@ -8080,7 +8151,8 @@
         "url": "https://testnet-explorer.gather.network",
         "standard": "none"
       }
-    ]
+    ],
+    "scanApi": "https://testnet-explorer.gather.network"
   },
   {
     "name": "Gather Devnet Network",
@@ -8098,7 +8170,8 @@
         "url": "https://devnet-explorer.gather.network",
         "standard": "none"
       }
-    ]
+    ],
+    "scanApi": "https://testnet-explorer.gather.network"
   },
   {
     "name": "IPOS Network",
@@ -8370,7 +8443,9 @@
         "standard": "EIP3091",
         "icon": "palm"
       }
-    ]
+    ],
+    "logo": "palm",
+    "scanApi": "https://explorer.palm.io"
   },
   {
     "name": "Ntity Mainnet",
@@ -8390,7 +8465,8 @@
         "icon": "ntity",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://blockscout.ntity.io"
   },
   {
     "name": "Haradev Testnet",
@@ -8414,7 +8490,8 @@
         "icon": "ntity",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "scanApi": "https://blockscout.haradev.com"
   },
   {
     "name": "Molereum Network",
