@@ -4,10 +4,12 @@
     "scanApi": "https://api.etherscan.io"
   },
   "3": {
-    "scanApi": "https://api-ropsten.etherscan.io"
+    "scanApi": "https://api-ropsten.etherscan.io",
+    "isTestnet": true
   },
   "4": {
-    "scanApi": "https://api-rinkeby.etherscan.io"
+    "scanApi": "https://api-rinkeby.etherscan.io",
+    "isTestnet": true
   },
   "5": {
     "scanApi": "https://api-goerli.etherscan.io",
@@ -15,7 +17,8 @@
       "name": "Görli Ether",
       "symbol": "ETH",
       "decimals": 18
-    }
+    },
+    "isTestnet": true
   },
   "10": {
     "rpcs": ["https://optimism-node.blockwallet.io"],
@@ -24,7 +27,8 @@
   },
   "16": { "scanApi": "https://coston-explorer.flare.network" },
   "18": {
-    "scanApi": "https://explorer-testnet.thundercore.com"
+    "scanApi": "https://explorer-testnet.thundercore.com",
+    "isTestnet": true
   },
   "19": {
     "scanApi": "https://songbird-explorer.flare.network"
@@ -76,7 +80,8 @@
     "scanApi": "https://hooscan.com"
   },
   "71": {
-    "scanApi": "https://evmtestnet.confluxscan.net"
+    "scanApi": "https://evmtestnet.confluxscan.net",
+    "isTestnet": true
   },
   "74": { "scanApi": "https://explorer.idchain.one" },
   "77": { "scanApi": "https://blockscout.com/poa/sokol" },
@@ -84,7 +89,8 @@
   "81": { "scanApi": "https://vilnius.scan.zenithchain.co" },
   "96": { "scanApi": "https://explorer.nextsmartchain.com" },
   "97": {
-    "scanApi": "https://api-testnet.bscscan.com"
+    "scanApi": "https://api-testnet.bscscan.com",
+    "isTestnet": true
   },
   "99": { "scanApi": "https://blockscout.com/poa/core" },
   "100": {
@@ -126,7 +132,8 @@
         "standard": "EIP3091"
       }
     ],
-    "scanApi": "https://testnet.hooscan.com"
+    "scanApi": "https://testnet.hooscan.com",
+    "isTestnet": true
   },
   "180": { "scanApi": "https://amescan.io" },
   "186": { "scanApi": "https://seeleview.net" },
@@ -159,7 +166,8 @@
         "standard": "EIP3091"
       }
     ],
-    "scanApi": "https://testnet.hecoinfo.com"
+    "scanApi": "https://testnet.hecoinfo.com",
+    "isTestnet": true
   },
   "269": {
     "scanApi": "https://hscan.org"
@@ -172,7 +180,8 @@
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/assets/0x0/logo.png"
   },
   "338": {
-    "scanApi": "https://cronos.org/explorer/testnet3"
+    "scanApi": "https://cronos.org/explorer/testnet3",
+    "isTestnet": true
   },
   "420": {
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png"
@@ -218,7 +227,8 @@
         "standard": "none"
       }
     ],
-    "scanApi": "https://testnet-explorer.callisto.network"
+    "scanApi": "https://testnet-explorer.callisto.network",
+    "isTestnet": true
   },
   "1001": {
     "explorers": [
@@ -256,11 +266,17 @@
     "scanApi": "https://api-moonbase.moonscan.io"
   },
   "1818": { "scanApi": "https://openapi.cubescan.network" },
-  "1819": { "scanApi": "https://openapi-testnet.cubescan.network" },
+  "1819": {
+    "scanApi": "https://openapi-testnet.cubescan.network",
+    "isTestnet": true
+  },
   "2001": {
     "scanApi": "https://explorer-mainnet-cardano-evm.c1.milkomeda.com"
   },
-  "2008": { "scanApi": "https://explorer.testnet.cloudwalk.io" },
+  "2008": {
+    "scanApi": "https://explorer.testnet.cloudwalk.io",
+    "isTestnet": true
+  },
   "2009": { "scanApi": "https://explorer.mainnet.cloudwalk.io" },
   "2221": {
     "scanApi": "https://explorer.evm-alpha.kava.io"
@@ -271,17 +287,21 @@
   "2223": { "scanApi": "https://scan.vcex.xyz" },
   "2569": { "scanApi": "https://tpcscan.com" },
   "2612": { "scanApi": "https://cchain-explorer.ezchain.com" },
-  "2613": { "scanApi": "https://testnet-cchain-explorer.ezchain.com" },
-  "3333": { "scanApi": "https://explorer.testnet.web3q.io" },
+  "2613": {
+    "scanApi": "https://testnet-cchain-explorer.ezchain.com",
+    "isTestnet": true
+  },
+  "3333": { "scanApi": "https://explorer.testnet.web3q.io", "isTestnet": true },
   "3334": { "scanApi": "https://explorer.galileo.web3q.io" },
   "3400": { "scanApi": "https://explorer.paribu.network" },
-  "3500": { "scanApi": "https://testnet.paribuscan.com/" },
+  "3500": { "scanApi": "https://testnet.paribuscan.com/", "isTestnet": true },
   "3690": { "scanApi": "https://api.bittex.com" },
   "3737": { "scanApi": "https://scan.crossbell.io" },
   "3966": { "scanApi": "https://dynoscan.io" },
-  "3967": { "scanApi": "https://testnet.dynoscan.io" },
+  "3967": { "scanApi": "https://testnet.dynoscan.io", "isTestnet": true },
   "4002": {
-    "scanApi": "https://api-testnet.ftmscan.com"
+    "scanApi": "https://api-testnet.ftmscan.com",
+    "isTestnet": true
   },
   "5551": {
     "scanApi": "https://explorer.nahmii.io"
@@ -301,8 +321,14 @@
     ]
   },
   "7341": { "scanApi": "https://bx.shyft.network/" },
-  "8000": { "scanApi": "https://evm-explorer.testnet.teleport.network" },
-  "8001": { "scanApi": "https://evm-explorer.testnet.teleport.network" },
+  "8000": {
+    "scanApi": "https://evm-explorer.testnet.teleport.network",
+    "isTestnet": true
+  },
+  "8001": {
+    "scanApi": "https://evm-explorer.testnet.teleport.network",
+    "isTestnet": true
+  },
   "8898": { "scanApi": "https://mmtscan.io" },
   "9000": {
     "scanApi": "https://evm.evmos.dev"
@@ -311,10 +337,13 @@
     "scanApi": "https://evm.evmos.org"
   },
   "10946": { "scanApi": "https://explorer.quadrans.io" },
-  "10947": { "scanApi": "https://explorer.testnet.quadrans.io" },
-  "11437": { "scanApi": "https://bx.testnet.shyft.network" },
+  "10947": {
+    "scanApi": "https://explorer.testnet.quadrans.io",
+    "isTestnet": true
+  },
+  "11437": { "scanApi": "https://bx.testnet.shyft.network", "isTestnet": true },
   "13381": { "scanApi": "https://phoenixplorer.com" },
-  "16888": { "scanApi": "https://testnet.ivarscan.com" },
+  "16888": { "scanApi": "https://testnet.ivarscan.com", "isTestnet": true },
   "19845": { "scanApi": "https://btcixscan.com" },
   "21816": { "scanApi": "http://explorer.omchain.io" },
   "22023": { "scanApi": "https://10.40.1.211:4000" },
@@ -352,10 +381,14 @@
   "42220": {
     "scanApi": "https://explorer.celo.org"
   },
-  "42261": { "scanApi": "https://testnet.explorer.emerald.oasis.dev" },
+  "42261": {
+    "scanApi": "https://testnet.explorer.emerald.oasis.dev",
+    "isTestnet": true
+  },
   "42262": { "scanApi": "https://explorer.emerald.oasis.dev" },
   "43113": {
-    "scanApi": "https://api-testnet.snowtrace.io"
+    "scanApi": "https://api-testnet.snowtrace.io",
+    "isTestnet": true
   },
   "43114": {
     "rpcs": ["https://avax-node.blockwallet.io"],
@@ -369,7 +402,8 @@
         "standard": "none"
       }
     ],
-    "scanApi": "https://alfajores-blockscout.celo-testnet.org"
+    "scanApi": "https://alfajores-blockscout.celo-testnet.org",
+    "isTestnet": true
   },
   "47805": {
     "scanApi": "https://scan.rei.network"
@@ -388,7 +422,8 @@
         "standard": "none"
       }
     ],
-    "scanApi": "https://baklava-blockscout.celo-testnet.org"
+    "scanApi": "https://baklava-blockscout.celo-testnet.org",
+    "isTestnet": true
   },
   "63000": { "scanApi": "https://explorer.ecredits.com" },
   "63001": { "scanApi": "https://explorer.tst.ecredits.com" },
@@ -402,7 +437,8 @@
     ]
   },
   "80001": {
-    "scanApi": "https://api-testnet.polygonscan.com"
+    "scanApi": "https://api-testnet.polygonscan.com",
+    "isTestnet": true
   },
   "88888": { "scanApi": "https://ivarscan.com" },
   "103090": { "scanApi": "https://scan.crystaleum.org" },
@@ -411,21 +447,30 @@
   },
   "421611": {
     "scanApi": "https://api-testnet.arbiscan.io",
-    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png"
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png",
+    "isTestnet": true
   },
   "1313114": { "scanApi": "https://ethoprotocol.com" },
   "1337802": { "scanApi": "https://explorer.kiln.themerge.dev" },
   "192837465": { "scanApi": "https://explorer.gather.network" },
-  "356256156": { "scanApi": "https://testnet-explorer.gather.network" },
-  "486217935": { "scanApi": "https://testnet-explorer.gather.network" },
+  "356256156": {
+    "scanApi": "https://testnet-explorer.gather.network",
+    "isTestnet": true
+  },
+  "486217935": {
+    "scanApi": "https://testnet-explorer.gather.network",
+    "isTestnet": true
+  },
   "1313161554": {
     "scanApi": "https://api.aurorascan.dev"
   },
   "1313161555": {
-    "scanApi": "https://api-testnet.aurorascan.dev"
+    "scanApi": "https://api-testnet.aurorascan.dev",
+    "isTestnet": true
   },
   "1313161556": {
-    "scanApi": "https://api-testnet.aurorascan.dev"
+    "scanApi": "https://api-testnet.aurorascan.dev",
+    "isTestnet": true
   },
   "4216137055": {
     "scanApi": "https://explorer.palm-uat.xyz"

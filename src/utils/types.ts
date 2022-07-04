@@ -19,6 +19,7 @@ export type Chain = {
     standard: string;
   }[];
   scanApi: string;
+  isTestnet: boolean;
 };
 
 export type ExtraChainData = {
@@ -26,7 +27,6 @@ export type ExtraChainData = {
 };
 
 export interface IToken {
-  address: string;
   name: string;
   logo: string;
   type: string;
@@ -39,7 +39,6 @@ export interface IToken {
 }
 
 export class Token implements IToken {
-  address: string;
   name: string;
   logo: string;
   type: string;
@@ -51,7 +50,6 @@ export class Token implements IToken {
   };
 
   constructor(token: IToken) {
-    this.address = token.address;
     this.name = token.name;
     this.logo =
       typeof token.logo === 'string'

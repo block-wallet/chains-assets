@@ -1,0 +1,11 @@
+._*
+.DS_Store
+.git
+.gitignore
+.editorconfig
+.npmrc
+npm-debug.log
+yarn-error.log
+*.json
+*.txt
+src/

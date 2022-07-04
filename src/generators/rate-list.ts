@@ -1,10 +1,11 @@
 import {
   ASSET_PLATFORM_ID_LIST_FILE,
+  AUTO_GENERATED_FILE_LABEL,
   COINGECKO_ASSET_PLATFORMS_URL,
   COINGECKO_COINS_LIST_URL,
-  RATE_ID_LIST_FILE,
+  RATES_IDS_LIST_FILE,
 } from '../utils/constants';
-import { get, writeFileSync } from '../utils/helpers';
+import { get, replaceAll, writeFileStringSync } from '../utils/helpers';
 
 export const generator = async () => {
   await (async () => {
@@ -21,7 +22,20 @@ export const generator = async () => {
     ratesList['FTM'] = 'fantom';
     ratesList['ETH'] = 'ethereum';
 
-    writeFileSync(RATE_ID_LIST_FILE, ratesList);
+    writeFileStringSync(
+      RATES_IDS_LIST_FILE,
+      `${AUTO_GENERATED_FILE_LABEL}
+
+type RateIdList = { [chain in string]: string };
+
+const RATES_IDS_LIST: RateIdList = JSON.parse('${replaceAll(
+        JSON.stringify(ratesList),
+        "'",
+        ''
+      )}')
+
+export { RATES_IDS_LIST, RateIdList }`
+    );
   })();
 
   await (async () => {
@@ -42,6 +56,19 @@ export const generator = async () => {
       }
     });
 
-    writeFileSync(ASSET_PLATFORM_ID_LIST_FILE, assetPlatforms);
+    writeFileStringSync(
+      ASSET_PLATFORM_ID_LIST_FILE,
+      `${AUTO_GENERATED_FILE_LABEL}
+
+type AssetPlatformIdList = { [chain in string]: string };
+
+const ASSET_PLATFORMS_IDS_LIST: AssetPlatformIdList = JSON.parse('${replaceAll(
+        JSON.stringify(assetPlatforms),
+        "'",
+        ''
+      )}')
+
+export { ASSET_PLATFORMS_IDS_LIST, AssetPlatformIdList }`
+    );
   })();
 };

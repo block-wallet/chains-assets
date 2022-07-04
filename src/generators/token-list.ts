@@ -2,6 +2,7 @@ import {
   ARBITRUM_TOKEN_LIST_URL,
   ASSETS_LIST_PATH,
   ASSETS_RESOURCES_URL,
+  AUTO_GENERATED_FILE_LABEL,
   MANUAL_BLOCKCHAINS,
   NETWORKS,
   OPTIMISM_TOKEN_LIST_URL,
@@ -11,9 +12,12 @@ import {
   get,
   readdirSync,
   readFileSync,
-  writeFileSync,
+  replaceAll,
+  writeFileStringSync,
 } from '../utils/helpers';
 import { Token } from '../utils/types';
+import isTokenExcluded from 'banned-assets';
+import { isValidAddress, toChecksumAddress } from 'ethereumjs-util';
 
 export const generator = async () => {
   const TOKENS: { [key in number]: { [key in string]: Token } } = {};
@@ -38,20 +42,27 @@ export const generator = async () => {
       );
 
       assetsAddress.map((assetAddress) => {
-        const tokenInfo: string[] = readdirSync(
-          `${ASSETS_LIST_PATH}/${blockchain}/assets/${assetAddress}`
-        );
-
-        if (tokenInfo.includes('info.json')) {
-          const token = readFileSync<any>(
-            `${ASSETS_LIST_PATH}/${blockchain}/assets/${assetAddress}/info.json`
+        if (!isTokenExcluded(chainId, assetAddress)) {
+          const tokenInfo: string[] = readdirSync(
+            `${ASSETS_LIST_PATH}/${blockchain}/assets/${assetAddress}`
           );
 
-          if (token.status == 'active') {
-            TOKENS[chainId][assetAddress] = new Token({
-              logo: `${ASSETS_RESOURCES_URL}/${blockchain}/assets/${assetAddress}/logo.png`,
-              ...token,
-            });
+          if (tokenInfo.includes('info.json')) {
+            const token = readFileSync<any>(
+              `${ASSETS_LIST_PATH}/${blockchain}/assets/${assetAddress}/info.json`
+            );
+
+            if (token.status == 'active') {
+              let checkSummedAddress = assetAddress;
+              if (isValidAddress(checkSummedAddress)) {
+                checkSummedAddress = toChecksumAddress(checkSummedAddress);
+              }
+
+              TOKENS[chainId][checkSummedAddress] = new Token({
+                logo: `${ASSETS_RESOURCES_URL}/${blockchain}/assets/${assetAddress}/logo.png`,
+                ...token,
+              });
+            }
           }
         }
       });
@@ -60,11 +71,13 @@ export const generator = async () => {
         `${ASSETS_LIST_PATH}/${blockchain}/info/info.json`
       );
 
-      if (token.status == 'active') {
-        TOKENS[chainId][token.name] = new Token({
-          logo: `${ASSETS_RESOURCES_URL}/${blockchain}/info/logo.png`,
-          ...token,
-        });
+      if (!isTokenExcluded(chainId, token.name)) {
+        if (token.status == 'active') {
+          TOKENS[chainId][token.name] = new Token({
+            logo: `${ASSETS_RESOURCES_URL}/${blockchain}/info/logo.png`,
+            ...token,
+          });
+        }
       }
     }
   });
@@ -74,14 +87,22 @@ export const generator = async () => {
     await get<{ tokens: any }>(`${OPTIMISM_TOKEN_LIST_URL}?r=${Math.random()}`)
   ).tokens;
   optimismTokenList
-    .filter((token: any) => token.chainId == 10)
+    .filter((token: any) => parseInt(token.chainId) === NETWORKS['optimism'])
+    .filter(
+      (token: any) => !isTokenExcluded(NETWORKS['optimism'], token.address)
+    )
     .forEach((token: any) => {
       let optimismBridgeAddress = '';
       if (token.extensions && token.extensions.optimismBridgeAddress) {
         optimismBridgeAddress = token.extensions.optimismBridgeAddress;
       }
-      TOKENS[NETWORKS['optimism']][token.address] = new Token({
-        address: token.address,
+
+      let checkSummedAddress = token.address;
+      if (isValidAddress(checkSummedAddress)) {
+        checkSummedAddress = toChecksumAddress(checkSummedAddress);
+      }
+
+      TOKENS[NETWORKS['optimism']][checkSummedAddress] = new Token({
         name: token.name,
         logo: token.logoURI || '',
         type: '',
@@ -94,23 +115,33 @@ export const generator = async () => {
       });
     });
   optimismTokenList
-    .filter((token: any) => token.chainId == 1)
+    .filter((token: any) => parseInt(token.chainId) === NETWORKS['ethereum'])
+    .filter(
+      (token: any) => !isTokenExcluded(NETWORKS['ethereum'], token.address)
+    )
     .forEach((token: any) => {
       if (
         optimismTokenList.some(
           (t: any) => t.chainId == 10 && t.name == token.name
         )
       ) {
-        const optimismAddress = optimismTokenList.filter(
-          (t: any) => t.chainId == 10 && t.name == token.name
-        )[0].address;
+        const optimismAddress = toChecksumAddress(
+          optimismTokenList.find(
+            (t: any) => t.chainId == 10 && t.name == token.name
+          ).address
+        );
+
         if (
           optimismAddress &&
           optimismAddress in TOKENS[NETWORKS['optimism']]
         ) {
-          // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+          let checkSummedAddress = token.address;
+          if (isValidAddress(checkSummedAddress)) {
+            checkSummedAddress = toChecksumAddress(checkSummedAddress);
+          }
+
           TOKENS[NETWORKS['optimism']][optimismAddress].l1Bridge!.tokenAddress =
-            token.address;
+            checkSummedAddress;
         }
       }
     });
@@ -121,9 +152,16 @@ export const generator = async () => {
   ).tokens;
   arbitrumTokenList
     .filter((token: any) => parseInt(token.chainId) === NETWORKS['arbitrum'])
+    .filter(
+      (token: any) => !isTokenExcluded(NETWORKS['arbitrum'], token.address)
+    )
     .forEach((token: any) => {
-      TOKENS[NETWORKS['arbitrum']][token.address] = new Token({
-        address: token.address,
+      let checkSummedAddress = token.address;
+      if (isValidAddress(checkSummedAddress)) {
+        checkSummedAddress = toChecksumAddress(checkSummedAddress);
+      }
+
+      TOKENS[NETWORKS['arbitrum']][checkSummedAddress] = new Token({
         name: token.name,
         logo: token.logoURI || '',
         type: '',
@@ -136,5 +174,14 @@ export const generator = async () => {
       });
     });
 
-  writeFileSync(TOKEN_LIST_FILE, TOKENS);
+  writeFileStringSync(
+    TOKEN_LIST_FILE,
+    `${AUTO_GENERATED_FILE_LABEL}
+
+const TOKENS_LIST: {
+  [key in string]: { [key in string]: { [key in string]: any } };
+} = JSON.parse('${replaceAll(JSON.stringify(TOKENS), "'", '')}')
+
+export { TOKENS_LIST }`
+  );
 };

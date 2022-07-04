@@ -1,6 +1,7 @@
 import {
   ASSETS_BLOCKCHAINS_CHAIN_ID,
   ASSETS_RESOURCES_URL,
+  AUTO_GENERATED_FILE_LABEL,
   CHAINS_DATASOURCE_URL,
   CHAIN_LIST_FILE,
   EXTRA_CHAIN_DATA_FILE,
@@ -9,6 +10,8 @@ import {
   get,
   readFileSync,
   removeTrailingSlash,
+  replaceAll,
+  writeFileStringSync,
   writeFileSync,
 } from '../utils/helpers';
 import { Chain, ExtraChainData } from '../utils/types';
@@ -23,11 +26,27 @@ const rpcFilter = (rpc: string[]): string[] => {
     .filter((rpc) => !rpc.includes('ws://'));
 };
 
-const overloadhainLogoWithAssetsRepository = (chain: Chain): Chain => {
+const overloadChainLogoWithAssetsRepository = (chain: Chain): Chain => {
   if (chain.chainId in ASSETS_BLOCKCHAINS_CHAIN_ID) {
     chain.logo = `${ASSETS_RESOURCES_URL}/${
       ASSETS_BLOCKCHAINS_CHAIN_ID[chain.chainId]
     }/info/logo.png`;
+  }
+
+  return chain;
+};
+
+const overloadIsTestnet = (chain: Chain): Chain => {
+  if (!chain.isTestnet) {
+    chain.isTestnet =
+      !!chain.name.toLowerCase().match(/test/gi) ||
+      !!chain.shortName.toLowerCase().match(/test/gi) ||
+      (chain.rpc || []).some((rpcEndpoint) =>
+        rpcEndpoint.toLowerCase().match(/test/gi)
+      ) ||
+      (chain.explorers || []).some((explorer) =>
+        explorer.url.toLowerCase().match(/test/gi)
+      );
   }
 
   return chain;
@@ -61,6 +80,7 @@ const overloadChainData = (chain: Chain, ecd: Chain): Chain => {
       );
     else chain.explorers = ecd.explorers;
   if (ecd.scanApi) chain.scanApi = ecd.scanApi;
+  if (ecd.isTestnet) chain.isTestnet = ecd.isTestnet;
 
   return chain;
 };
@@ -70,7 +90,8 @@ export const generator = async () => {
   const extraChainsData = readFileSync<ExtraChainData>(EXTRA_CHAIN_DATA_FILE);
 
   const parseChain = (chain: Chain): Chain => {
-    chain = overloadhainLogoWithAssetsRepository(chain);
+    chain = overloadChainLogoWithAssetsRepository(chain);
+    chain = overloadIsTestnet(chain);
 
     if (chain.chainId.toString() in extraChainsData) {
       chain = overloadChainData(
@@ -86,43 +107,53 @@ export const generator = async () => {
   };
 
   // Fetch new chainlist json
-  const newChainlist = (await get<Chain[]>(CHAINS_DATASOURCE_URL)).map(
-    parseChain
+  const chainlist = (await get<Chain[]>(CHAINS_DATASOURCE_URL)).map(parseChain);
+
+  writeFileStringSync(
+    CHAIN_LIST_FILE,
+    `${AUTO_GENERATED_FILE_LABEL}
+
+type ChainListItem = {
+  name: string;
+  chain: string;
+  title?: string;
+  icon?: string;
+  logo?: string;
+  rpc: string[];
+  faucets: string[];
+  nativeCurrency: { name: string; symbol: string; decimals: number };
+  nativeCurrencyIcon?: string;
+  infoURL: string;
+  shortName: string;
+  chainId: number;
+  networkId: number;
+  network?: string;
+  isTestnet?: boolean;
+  slip44?: number;
+  ens?: { registry: string };
+  scanApi?: string;
+  explorers?: {
+    name: string;
+    url: string;
+    standard: string;
+    icon?: string;
+  }[];
+  parent?: {
+    type: string;
+    chain: string;
+    bridges?: {
+      url: string;
+    }[];
+  };
+  status?: string;
+};
+
+const CHAIN_LIST: ChainListItem[] = JSON.parse('${replaceAll(
+      JSON.stringify(chainlist),
+      "'",
+      ''
+    )}')
+
+export { CHAIN_LIST, ChainListItem }`
   );
-
-  // Read current chainlist json
-  let currentChainlist = readFileSync<Chain[]>(CHAIN_LIST_FILE);
-
-  // Check for new chains
-  const newChains = newChainlist.filter(
-    (c) => !currentChainlist.some((cc) => cc.chainId === c.chainId)
-  );
-  if (newChains.length) {
-    console.log(`Found ${newChains.length} new chains`);
-    currentChainlist = [...currentChainlist, ...newChains];
-  }
-
-  // Check for removed chains
-  const removedChains = currentChainlist.filter(
-    (c) => !newChainlist.some((cc) => cc.chainId === c.chainId)
-  );
-  if (removedChains.length) {
-    console.log(`Found ${removedChains.length} removed chains`);
-    currentChainlist = currentChainlist.filter(
-      (c) => !removedChains.some((cc) => cc.chainId === c.chainId)
-    );
-  }
-
-  // Check chains with diffs
-  currentChainlist.map((chain: Chain, i: number) => {
-    const newChain = newChainlist.find((c) => c.chainId === chain.chainId);
-    if (newChain) {
-      if (JSON.stringify(newChain) != JSON.stringify(chain)) {
-        console.log(`Found differences for ${chain.chainId} - ${chain.name}`);
-        currentChainlist[i] = newChain;
-      }
-    }
-  });
-
-  writeFileSync(CHAIN_LIST_FILE, [...currentChainlist]);
 };
