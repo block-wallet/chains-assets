@@ -1,0 +1,6 @@
+- aox (200) is not longer generating new blocks
+- astar (592) has an scan API but does not follow the standard.
+- bytom (188) has an scan API but does not follow the standard.
+- dfk (53935) not working
+- genechain (80) not working
+- kkc (321) has an scan API but does not follow the standard.

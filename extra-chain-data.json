@@ -1,0 +1,486 @@
+{
+  "1": {
+    "rpcs": ["https://mainnet-node.blockwallet.io"],
+    "scanApi": "https://api.etherscan.io"
+  },
+  "3": {
+    "scanApi": "https://api-ropsten.etherscan.io",
+    "isTestnet": true
+  },
+  "4": {
+    "scanApi": "https://api-rinkeby.etherscan.io",
+    "isTestnet": true
+  },
+  "5": {
+    "scanApi": "https://api-goerli.etherscan.io",
+    "nativeCurrency": {
+      "name": "Görli Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "isTestnet": true
+  },
+  "10": {
+    "rpcs": ["https://optimism-node.blockwallet.io"],
+    "scanApi": "https://api-optimistic.etherscan.io",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png"
+  },
+  "16": { "scanApi": "https://coston-explorer.flare.network" },
+  "18": {
+    "scanApi": "https://explorer-testnet.thundercore.com",
+    "isTestnet": true
+  },
+  "19": {
+    "scanApi": "https://songbird-explorer.flare.network"
+  },
+  "20": {
+    "scanApi": "https://esc.elastos.io"
+  },
+  "25": {
+    "scanApi": "https://cronos.org/explorer"
+  },
+  "27": { "scanApi": "https://exp.shibachain.net" },
+  "30": {
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x0/logo.png"
+  },
+  "31": {
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x0/logo.png"
+  },
+  "52": {
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/csc/assets/0x0/logo.png"
+  },
+  "53": {
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/csc/assets/0x0/logo.png"
+  },
+  "55": {
+    "scanApi": "http://zyxscan.com"
+  },
+  "56": {
+    "rpcs": ["https://bsc-node.blockwallet.io"],
+    "scanApi": "https://api.bscscan.com"
+  },
+  "57": {
+    "scanApi": "https://explorer.syscoin.org"
+  },
+  "61": {
+    "scanApi": "https://blockscout.com/etc/mainnet"
+  },
+  "69": {
+    "scanApi": "https://api-kovan-optimistic.etherscan.io",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png"
+  },
+  "70": {
+    "explorers": [
+      {
+        "name": "hooscan",
+        "url": "https://hooscan.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "scanApi": "https://hooscan.com"
+  },
+  "71": {
+    "scanApi": "https://evmtestnet.confluxscan.net",
+    "isTestnet": true
+  },
+  "74": { "scanApi": "https://explorer.idchain.one" },
+  "77": { "scanApi": "https://blockscout.com/poa/sokol" },
+  "79": { "scanApi": "https://scan.zenithchain.co" },
+  "81": { "scanApi": "https://vilnius.scan.zenithchain.co" },
+  "96": { "scanApi": "https://explorer.nextsmartchain.com" },
+  "97": {
+    "scanApi": "https://api-testnet.bscscan.com",
+    "isTestnet": true
+  },
+  "99": { "scanApi": "https://blockscout.com/poa/core" },
+  "100": {
+    "scanApi": "https://blockscout.com/xdai/mainnet",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/assets/0x0/logo.png"
+  },
+  "122": {
+    "explorers": [
+      {
+        "name": "fuse",
+        "url": "https://explorer.fuse.io",
+        "standard": "none"
+      }
+    ],
+    "scanApi": "https://explorer.fuse.io"
+  },
+  "123": {
+    "explorers": [
+      {
+        "name": "fuse",
+        "url": "https://explorer.fusespark.io/",
+        "standard": "none"
+      }
+    ],
+    "scanApi": "https://explorer.fusespark.io/"
+  },
+  "128": {
+    "scanApi": "https://api.hecoinfo.com"
+  },
+  "137": {
+    "rpcs": ["https://polygon-node.blockwallet.io"],
+    "scanApi": "https://api.polygonscan.com"
+  },
+  "170": {
+    "explorers": [
+      {
+        "name": "hooscan",
+        "url": "https://testnet.hooscan.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "scanApi": "https://testnet.hooscan.com",
+    "isTestnet": true
+  },
+  "180": { "scanApi": "https://amescan.io" },
+  "186": { "scanApi": "https://seeleview.net" },
+  "200": {
+    "scanApi": "https://blockscout.com/xdai/aox",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://blockscout.com/xdai/aox",
+        "standard": "EIP3091"
+      }
+    ],
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/assets/0x0/logo.png"
+  },
+  "225": {
+    "scanApi": "https://scan.lachain.io"
+  },
+  "226": {
+    "scanApi": "https://scan-test.lachain.io"
+  },
+  "246": { "scanApi": "https://explorer.energyweb.org" },
+  "250": {
+    "scanApi": "https://api.ftmscan.com"
+  },
+  "256": {
+    "explorers": [
+      {
+        "name": "hecoinfo",
+        "url": "https://testnet.hecoinfo.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "scanApi": "https://testnet.hecoinfo.com",
+    "isTestnet": true
+  },
+  "269": {
+    "scanApi": "https://hscan.org"
+  },
+  "288": {
+    "scanApi": "https://blockexplorer.boba.network"
+  },
+  "300": {
+    "scanApi": "https://blockscout.com/xdai/optimism",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/assets/0x0/logo.png"
+  },
+  "338": {
+    "scanApi": "https://cronos.org/explorer/testnet3",
+    "isTestnet": true
+  },
+  "420": {
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png"
+  },
+  "534": { "scanApi": "https://candleexplorer.com" },
+  "555": { "scanApi": "https://exp.velaverse.io" },
+  "588": {
+    "scanApi": "https://stardust-explorer.metis.io"
+  },
+  "596": {
+    "explorers": [
+      {
+        "name": "karura",
+        "url": "",
+        "standard": "none"
+      }
+    ]
+  },
+  "686": {
+    "explorers": [
+      {
+        "name": "karura",
+        "url": "https://karura.subscan.io",
+        "standard": "none"
+      }
+    ]
+  },
+  "820": {
+    "explorers": [
+      {
+        "name": "callistoscan",
+        "url": "https://explorer.callisto.network",
+        "standard": "none"
+      }
+    ],
+    "scanApi": "https://explorer.callisto.network"
+  },
+  "821": {
+    "explorers": [
+      {
+        "name": "callistoscan",
+        "url": "https://testnet-explorer.callisto.network",
+        "standard": "none"
+      }
+    ],
+    "scanApi": "https://testnet-explorer.callisto.network",
+    "isTestnet": true
+  },
+  "1001": {
+    "explorers": [
+      {
+        "name": "baobab",
+        "url": "https://baobab.scope.klaytn.com",
+        "standard": "none"
+      }
+    ]
+  },
+  "1030": {
+    "scanApi": "https://evm.confluxscan.net"
+  },
+  "1088": {
+    "scanApi": "https://andromeda-explorer.metis.io"
+  },
+  "1214": {
+    "scanApi": "https://scan.entercoin.net",
+    "explorers": [
+      {
+        "name": "entercoin",
+        "url": "https://scan.entercoin.net",
+        "standard": "none"
+      }
+    ]
+  },
+  "1280": { "scanApi": "https://browser.halo.land" },
+  "1284": {
+    "scanApi": "https://api-moonbeam.moonscan.io"
+  },
+  "1285": {
+    "scanApi": "https://api-moonriver.moonscan.io"
+  },
+  "1287": {
+    "scanApi": "https://api-moonbase.moonscan.io"
+  },
+  "1818": { "scanApi": "https://openapi.cubescan.network" },
+  "1819": {
+    "scanApi": "https://openapi-testnet.cubescan.network",
+    "isTestnet": true
+  },
+  "2001": {
+    "scanApi": "https://explorer-mainnet-cardano-evm.c1.milkomeda.com"
+  },
+  "2008": {
+    "scanApi": "https://explorer.testnet.cloudwalk.io",
+    "isTestnet": true
+  },
+  "2009": { "scanApi": "https://explorer.mainnet.cloudwalk.io" },
+  "2221": {
+    "scanApi": "https://explorer.evm-alpha.kava.io"
+  },
+  "2222": {
+    "scanApi": "https://explorer.kava.io"
+  },
+  "2223": { "scanApi": "https://scan.vcex.xyz" },
+  "2569": { "scanApi": "https://tpcscan.com" },
+  "2612": { "scanApi": "https://cchain-explorer.ezchain.com" },
+  "2613": {
+    "scanApi": "https://testnet-cchain-explorer.ezchain.com",
+    "isTestnet": true
+  },
+  "3333": { "scanApi": "https://explorer.testnet.web3q.io", "isTestnet": true },
+  "3334": { "scanApi": "https://explorer.galileo.web3q.io" },
+  "3400": { "scanApi": "https://explorer.paribu.network" },
+  "3500": { "scanApi": "https://testnet.paribuscan.com/", "isTestnet": true },
+  "3690": { "scanApi": "https://api.bittex.com" },
+  "3737": { "scanApi": "https://scan.crossbell.io" },
+  "3966": { "scanApi": "https://dynoscan.io" },
+  "3967": { "scanApi": "https://testnet.dynoscan.io", "isTestnet": true },
+  "4002": {
+    "scanApi": "https://api-testnet.ftmscan.com",
+    "isTestnet": true
+  },
+  "5551": {
+    "scanApi": "https://explorer.nahmii.io"
+  },
+  "5553": {
+    "scanApi": "https://explorer.staging.nahmii.net"
+  },
+  "5700": { "scanApi": "https://tanenbaum.io" },
+  "6626": { "scanApi": "https://scan.chain.pixie.xyz" },
+  "7027": {
+    "explorers": [
+      {
+        "name": "ella",
+        "url": "https://explorer.ella.network",
+        "standard": "none"
+      }
+    ]
+  },
+  "7341": { "scanApi": "https://bx.shyft.network/" },
+  "8000": {
+    "scanApi": "https://evm-explorer.testnet.teleport.network",
+    "isTestnet": true
+  },
+  "8001": {
+    "scanApi": "https://evm-explorer.testnet.teleport.network",
+    "isTestnet": true
+  },
+  "8898": { "scanApi": "https://mmtscan.io" },
+  "9000": {
+    "scanApi": "https://evm.evmos.dev"
+  },
+  "9001": {
+    "scanApi": "https://evm.evmos.org"
+  },
+  "10946": { "scanApi": "https://explorer.quadrans.io" },
+  "10947": {
+    "scanApi": "https://explorer.testnet.quadrans.io",
+    "isTestnet": true
+  },
+  "11437": { "scanApi": "https://bx.testnet.shyft.network", "isTestnet": true },
+  "13381": { "scanApi": "https://phoenixplorer.com" },
+  "16888": { "scanApi": "https://testnet.ivarscan.com", "isTestnet": true },
+  "19845": { "scanApi": "https://btcixscan.com" },
+  "21816": { "scanApi": "http://explorer.omchain.io" },
+  "22023": { "scanApi": "https://10.40.1.211:4000" },
+  "26863": {
+    "scanApi": "https://scan.oasischain.io"
+  },
+  "30067": { "scanApi": "https://scan.test.piecenetwork.com" },
+  "32520": {
+    "scanApi": "https://brisescan.com/api"
+  },
+  "32659": {
+    "explorers": [
+      {
+        "name": "fusion",
+        "url": "https://blocks.fusionnetwork.io/#!",
+        "standard": "none"
+      }
+    ]
+  },
+  "39797": {
+    "explorers": [
+      {
+        "name": "energi",
+        "url": "https://explorer.energi.network",
+        "standard": "none"
+      }
+    ],
+    "scanApi": "https://explorer.energi.network"
+  },
+  "42161": {
+    "rpcs": ["https://arbitrum-node.blockwallet.io"],
+    "scanApi": "https://api.arbiscan.io",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png"
+  },
+  "42220": {
+    "scanApi": "https://explorer.celo.org"
+  },
+  "42261": {
+    "scanApi": "https://testnet.explorer.emerald.oasis.dev",
+    "isTestnet": true
+  },
+  "42262": { "scanApi": "https://explorer.emerald.oasis.dev" },
+  "43113": {
+    "scanApi": "https://api-testnet.snowtrace.io",
+    "isTestnet": true
+  },
+  "43114": {
+    "rpcs": ["https://avax-node.blockwallet.io"],
+    "scanApi": "https://api.snowtrace.io"
+  },
+  "44787": {
+    "explorers": [
+      {
+        "name": "alfajores",
+        "url": "https://alfajores-blockscout.celo-testnet.org",
+        "standard": "none"
+      }
+    ],
+    "scanApi": "https://alfajores-blockscout.celo-testnet.org",
+    "isTestnet": true
+  },
+  "47805": {
+    "scanApi": "https://scan.rei.network"
+  },
+  "55555": {
+    "scanApi": "https://reiscan.com"
+  },
+  "55556": {
+    "scanApi": "https://testnet.reiscan.com"
+  },
+  "62320": {
+    "explorers": [
+      {
+        "name": "baklava",
+        "url": "https://baklava-blockscout.celo-testnet.org",
+        "standard": "none"
+      }
+    ],
+    "scanApi": "https://baklava-blockscout.celo-testnet.org",
+    "isTestnet": true
+  },
+  "63000": { "scanApi": "https://explorer.ecredits.com" },
+  "63001": { "scanApi": "https://explorer.tst.ecredits.com" },
+  "71402": {
+    "explorers": [
+      {
+        "name": "GWScan Block Explorer",
+        "url": "https://gwscan.com/",
+        "standard": "none"
+      }
+    ]
+  },
+  "80001": {
+    "scanApi": "https://api-testnet.polygonscan.com",
+    "isTestnet": true
+  },
+  "88888": { "scanApi": "https://ivarscan.com" },
+  "103090": { "scanApi": "https://scan.crystaleum.org" },
+  "200101": {
+    "scanApi": "https://explorer-devnet-cardano-evm.c1.milkomeda.com"
+  },
+  "421611": {
+    "scanApi": "https://api-testnet.arbiscan.io",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png",
+    "isTestnet": true
+  },
+  "1313114": { "scanApi": "https://ethoprotocol.com" },
+  "1337802": { "scanApi": "https://explorer.kiln.themerge.dev" },
+  "192837465": { "scanApi": "https://explorer.gather.network" },
+  "356256156": {
+    "scanApi": "https://testnet-explorer.gather.network",
+    "isTestnet": true
+  },
+  "486217935": {
+    "scanApi": "https://testnet-explorer.gather.network",
+    "isTestnet": true
+  },
+  "1313161554": {
+    "scanApi": "https://api.aurorascan.dev"
+  },
+  "1313161555": {
+    "scanApi": "https://api-testnet.aurorascan.dev",
+    "isTestnet": true
+  },
+  "1313161556": {
+    "scanApi": "https://api-testnet.aurorascan.dev",
+    "isTestnet": true
+  },
+  "4216137055": {
+    "scanApi": "https://explorer.palm-uat.xyz"
+  },
+  "11297108099": {
+    "scanApi": "https://explorer.palm.io"
+  },
+  "11297108109": {
+    "scanApi": "https://explorer.palm.io"
+  },
+  "197710212030": { "scanApi": "https://blockscout.ntity.io" },
+  "197710212031": { "scanApi": "https://blockscout.haradev.com" }
+}
