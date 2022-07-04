@@ -184,6 +184,7 @@ const TOKENS_LIST: {
   '${replaceAll(JSON.stringify(TOKENS), "'", '')}'
 );
 
-export { TOKENS_LIST };`
+export { TOKENS_LIST };
+`
   );
 };
