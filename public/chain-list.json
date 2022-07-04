@@ -19,7 +19,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "ethereum",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png",
     "scanApi": "https://api.etherscan.io"
   },
   {
@@ -65,7 +65,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "ethereum",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png",
     "scanApi": "https://api-ropsten.etherscan.io"
   },
   {
@@ -95,7 +95,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "ethereum",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png",
     "scanApi": "https://api-rinkeby.etherscan.io"
   },
   {
@@ -126,7 +126,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "ethereum",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png",
     "scanApi": "https://api-goerli.etherscan.io"
   },
   {
@@ -142,7 +142,8 @@
     "infoURL": "https://explorer.jade.builders/?network=kotti",
     "shortName": "kot",
     "chainId": 6,
-    "networkId": 6
+    "networkId": 6,
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/classic/info/logo.png"
   },
   {
     "name": "ThaiChain",
@@ -177,7 +178,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "ubiq"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ubiq/info/logo.png"
   },
   {
     "name": "Ubiq Network Testnet",
@@ -193,7 +194,7 @@
     "shortName": "tubq",
     "chainId": 9,
     "networkId": 2,
-    "logo": "ubiq"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ubiq/info/logo.png"
   },
   {
     "name": "Optimism",
@@ -212,8 +213,8 @@
         "standard": "none"
       }
     ],
-    "nativeCurrencyIcon": "currencies/ethereum",
-    "logo": "optimism",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/optimism/info/logo.png",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png",
     "scanApi": "https://api-optimistic.etherscan.io"
   },
   {
@@ -347,7 +348,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "thundercore",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/thundercore/info/logo.png",
     "scanApi": "https://explorer-testnet.thundercore.com"
   },
   {
@@ -373,7 +374,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "songbird",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/songbird/info/logo.png",
     "scanApi": "https://songbird-explorer.flare.network"
   },
   {
@@ -393,7 +394,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "elastos",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/elastos/info/logo.png",
     "scanApi": "https://esc.elastos.io"
   },
   {
@@ -406,7 +407,7 @@
     "shortName": "elaetht",
     "chainId": 21,
     "networkId": 21,
-    "logo": "elastos"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/elastos/info/logo.png"
   },
   {
     "name": "ELA-DID-Sidechain Mainnet",
@@ -418,7 +419,7 @@
     "shortName": "eladid",
     "chainId": 22,
     "networkId": 22,
-    "logo": "elastos"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/elastos/info/logo.png"
   },
   {
     "name": "ELA-DID-Sidechain Testnet",
@@ -430,7 +431,7 @@
     "shortName": "eladidt",
     "chainId": 23,
     "networkId": 23,
-    "logo": "elastos"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/elastos/info/logo.png"
   },
   {
     "name": "Dithereum Mainnet",
@@ -461,7 +462,7 @@
         "standard": "none"
       }
     ],
-    "logo": "cronos",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/cronos/info/logo.png",
     "scanApi": "https://cronos.org/explorer"
   },
   {
@@ -531,7 +532,7 @@
       "chain": "eip155-4",
       "bridges": [{ "url": "https://gateway.rinkeby.boba.network" }]
     },
-    "logo": "boba"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/boba/info/logo.png"
   },
   {
     "name": "Genesis L1",
@@ -573,8 +574,8 @@
         "standard": "EIP3091"
       }
     ],
-    "nativeCurrencyIcon": "currencies/rbtc",
-    "logo": "rsk"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/info/logo.png",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x0/logo.png"
   },
   {
     "name": "RSK Testnet",
@@ -593,8 +594,8 @@
     "shortName": "trsk",
     "chainId": 31,
     "networkId": 31,
-    "nativeCurrencyIcon": "currencies/rbtc",
-    "logo": "rsk"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/info/logo.png",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x0/logo.png"
   },
   {
     "name": "GoodData Testnet",
@@ -678,7 +679,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "telos"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/telos/info/logo.png"
   },
   {
     "name": "Telos EVM Testnet",
@@ -690,7 +691,7 @@
     "shortName": "Telos EVM Testnet",
     "chainId": 41,
     "networkId": 41,
-    "logo": "telos"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/telos/info/logo.png"
   },
   {
     "name": "Kovan",
@@ -719,8 +720,7 @@
     "shortName": "kov",
     "chainId": 42,
     "networkId": 42,
-    "logo": "ethereum",
-    "scanApi": "https://api-kovan.etherscan.io"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png"
   },
   {
     "name": "Darwinia Pangolin Testnet",
@@ -745,7 +745,7 @@
         "standard": "none"
       }
     ],
-    "logo": "crab"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/crab/info/logo.png"
   },
   {
     "name": "Darwinia Crab Network",
@@ -768,7 +768,7 @@
         "standard": "none"
       }
     ],
-    "logo": "crab"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/crab/info/logo.png"
   },
   {
     "name": "Darwinia Pangoro Testnet",
@@ -802,7 +802,7 @@
     "shortName": "xdc",
     "chainId": 50,
     "networkId": 50,
-    "logo": "xdc"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdc/info/logo.png"
   },
   {
     "name": "XinFin Apothem Testnet",
@@ -818,7 +818,7 @@
     "shortName": "TXDC",
     "chainId": 51,
     "networkId": 51,
-    "logo": "xdc"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdc/info/logo.png"
   },
   {
     "name": "CoinEx Smart Chain Mainnet",
@@ -841,8 +841,8 @@
         "standard": "none"
       }
     ],
-    "nativeCurrencyIcon": "currencies/cet",
-    "logo": "csc"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/csc/info/logo.png",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/csc/assets/0x0/logo.png"
   },
   {
     "name": "CoinEx Smart Chain Testnet",
@@ -865,8 +865,8 @@
         "standard": "none"
       }
     ],
-    "nativeCurrencyIcon": "currencies/cet",
-    "logo": "csc"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/csc/info/logo.png",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/csc/assets/0x0/logo.png"
   },
   {
     "name": "Openpiece Mainnet",
@@ -908,7 +908,7 @@
     "explorers": [
       { "name": "zyxscan", "url": "https://zyxscan.com", "standard": "none" }
     ],
-    "logo": "zyx",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/zyx/info/logo.png",
     "scanApi": "http://zyxscan.com"
   },
   {
@@ -942,7 +942,7 @@
     "explorers": [
       { "name": "bscscan", "url": "https://bscscan.com", "standard": "EIP3091" }
     ],
-    "logo": "binance",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/smartchain/info/logo.png",
     "scanApi": "https://api.bscscan.com"
   },
   {
@@ -962,7 +962,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "syscoin",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/syscoin/info/logo.png",
     "scanApi": "https://explorer.syscoin.org"
   },
   {
@@ -991,7 +991,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "ontology"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ontology/info/logo.png"
   },
   {
     "name": "EOS Mainnet",
@@ -1010,7 +1010,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "eos"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/eos/info/logo.png"
   },
   {
     "name": "GoChain",
@@ -1034,7 +1034,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "gochain"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/gochain/info/logo.png"
   },
   {
     "name": "Ethereum Classic Mainnet",
@@ -1058,7 +1058,7 @@
         "standard": "none"
       }
     ],
-    "logo": "ethereumclassic",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/classic/info/logo.png",
     "scanApi": "https://blockscout.com/etc/mainnet"
   },
   {
@@ -1075,7 +1075,7 @@
     "shortName": "tetc",
     "chainId": 62,
     "networkId": 2,
-    "logo": "ethereumclassic"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/classic/info/logo.png"
   },
   {
     "name": "Ethereum Classic Testnet Mordor",
@@ -1090,7 +1090,8 @@
     "infoURL": "https://github.com/eth-classic/mordor/",
     "shortName": "metc",
     "chainId": 63,
-    "networkId": 7
+    "networkId": 7,
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/classic/info/logo.png"
   },
   {
     "name": "Ellaism",
@@ -1106,7 +1107,8 @@
     "shortName": "ella",
     "chainId": 64,
     "networkId": 64,
-    "slip44": 163
+    "slip44": 163,
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ellaism/info/logo.png"
   },
   {
     "name": "OKExChain Testnet",
@@ -1129,7 +1131,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "okexchain"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/okexchain/info/logo.png"
   },
   {
     "name": "OKXChain Mainnet",
@@ -1155,7 +1157,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "okexchain"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/okexchain/info/logo.png"
   },
   {
     "name": "DBChain Testnet",
@@ -1209,8 +1211,8 @@
     "shortName": "okov",
     "chainId": 69,
     "networkId": 69,
-    "nativeCurrencyIcon": "currencies/ethereum",
-    "logo": "optimism",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/optimism/info/logo.png",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png",
     "scanApi": "https://api-kovan-optimistic.etherscan.io"
   },
   {
@@ -1239,7 +1241,7 @@
       },
       { "name": "hooscan", "url": "https://hooscan.com", "standard": "EIP3091" }
     ],
-    "logo": "hoo",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/hoo/info/logo.png",
     "scanApi": "https://hooscan.com"
   },
   {
@@ -1261,7 +1263,7 @@
         "standard": "none"
       }
     ],
-    "logo": "conflux",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/conflux/info/logo.png",
     "scanApi": "https://evmtestnet.confluxscan.net"
   },
   {
@@ -1319,6 +1321,7 @@
         "standard": "none"
       }
     ],
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/poa/info/logo.png",
     "scanApi": "https://blockscout.com/poa/sokol"
   },
   {
@@ -1417,7 +1420,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "meter"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/meter/info/logo.png"
   },
   {
     "name": "Meter Testnet",
@@ -1436,7 +1439,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "meter"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/meter/info/logo.png"
   },
   {
     "name": "GateChain Testnet",
@@ -1508,7 +1511,7 @@
     "chainId": 88,
     "networkId": 88,
     "slip44": 889,
-    "logo": "tomochain"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/tomochain/info/logo.png"
   },
   {
     "name": "TomoChain Testnet",
@@ -1521,7 +1524,7 @@
     "chainId": 89,
     "networkId": 89,
     "slip44": 889,
-    "logo": "tomochain"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/tomochain/info/logo.png"
   },
   {
     "name": "Garizon Stage0",
@@ -1627,7 +1630,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "eos"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/eos/info/logo.png"
   },
   {
     "name": "NEXT Smart Chain",
@@ -1676,7 +1679,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "binance",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/smartchain/info/logo.png",
     "scanApi": "https://api-testnet.bscscan.com"
   },
   {
@@ -1705,6 +1708,7 @@
         "standard": "none"
       }
     ],
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/poa/info/logo.png",
     "scanApi": "https://blockscout.com/poa/core"
   },
   {
@@ -1736,8 +1740,8 @@
         "standard": "EIP3091"
       }
     ],
-    "nativeCurrencyIcon": "currencies/xdai",
-    "logo": "gnosis",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/info/logo.png",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/assets/0x0/logo.png",
     "scanApi": "https://blockscout.com/xdai/mainnet"
   },
   {
@@ -1808,7 +1812,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "velas"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/velas/info/logo.png"
   },
   {
     "name": "Nebula Testnet",
@@ -1855,7 +1859,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "thundercore"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/thundercore/info/logo.png"
   },
   {
     "name": "Proton Testnet",
@@ -1866,8 +1870,7 @@
     "infoURL": "https://protonchain.com",
     "shortName": "xpr",
     "chainId": 110,
-    "networkId": 110,
-    "logo": "proton"
+    "networkId": 110
   },
   {
     "name": "EtherLite Chain",
@@ -1891,7 +1894,7 @@
     "shortName": "fuse",
     "chainId": 122,
     "networkId": 122,
-    "logo": "fuse",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/fuse/info/logo.png",
     "explorers": [
       { "name": "fuse", "url": "https://explorer.fuse.io", "standard": "none" }
     ],
@@ -1907,7 +1910,7 @@
     "shortName": "spark",
     "chainId": 123,
     "networkId": 123,
-    "logo": "fuse",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/fuse/info/logo.png",
     "explorers": [
       {
         "name": "fuse",
@@ -2017,7 +2020,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "heco",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/heco/info/logo.png",
     "scanApi": "https://api.hecoinfo.com"
   },
   {
@@ -2045,7 +2048,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "polygon",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/polygon/info/logo.png",
     "scanApi": "https://api.polygonscan.com"
   },
   {
@@ -2140,7 +2143,7 @@
     "shortName": "hoosmartchain",
     "chainId": 170,
     "networkId": 170,
-    "logo": "hoo",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/hoo/info/logo.png",
     "explorers": [
       {
         "name": "hooscan",
@@ -2216,7 +2219,7 @@
         "standard": "none"
       }
     ],
-    "logo": "bytom"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/bytom/info/logo.png"
   },
   {
     "name": "BMC Testnet",
@@ -2235,7 +2238,7 @@
         "standard": "none"
       }
     ],
-    "logo": "bytom"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/bytom/info/logo.png"
   },
   {
     "name": "Crypto Emergency",
@@ -2272,7 +2275,7 @@
         "standard": "none"
       }
     ],
-    "logo": "bittorrent"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/bittorrent/info/logo.png"
   },
   {
     "name": "Arbitrum on xDai",
@@ -2297,8 +2300,8 @@
       }
     ],
     "parent": { "chain": "eip155-100", "type": "L2" },
-    "nativeCurrencyIcon": "currencies/xdai",
-    "logo": "aox",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/arbitrum/info/logo.png",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/assets/0x0/logo.png",
     "scanApi": "https://blockscout.com/xdai/aox"
   },
   {
@@ -2362,7 +2365,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "lachain",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/lachain/info/logo.png",
     "scanApi": "https://scan.lachain.io"
   },
   {
@@ -2383,7 +2386,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "lachain",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/lachain/info/logo.png",
     "scanApi": "https://scan-test.lachain.io"
   },
   {
@@ -2434,6 +2437,7 @@
         "standard": "none"
       }
     ],
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/energyweb/info/logo.png",
     "scanApi": "https://explorer.energyweb.org"
   },
   {
@@ -2455,7 +2459,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "fantom",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/fantom/info/logo.png",
     "scanApi": "https://api.ftmscan.com"
   },
   {
@@ -2472,7 +2476,7 @@
     "shortName": "hecot",
     "chainId": 256,
     "networkId": 256,
-    "logo": "heco",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/heco/info/logo.png",
     "explorers": [
       {
         "name": "hecoinfo",
@@ -2531,7 +2535,7 @@
     "explorers": [
       { "name": "hscan", "url": "https://hscan.org", "standard": "EIP3091" }
     ],
-    "logo": "hph",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/hpb/info/logo.png",
     "scanApi": "https://hscan.org"
   },
   {
@@ -2556,7 +2560,7 @@
       "chain": "eip155-1",
       "bridges": [{ "url": "https://gateway.boba.network" }]
     },
-    "logo": "boba",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/boba/info/logo.png",
     "scanApi": "https://blockexplorer.boba.network"
   },
   {
@@ -2577,8 +2581,8 @@
         "standard": "EIP3091"
       }
     ],
-    "nativeCurrencyIcon": "currencies/xdai",
-    "logo": "optimism",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/optimism/info/logo.png",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/assets/0x0/logo.png",
     "scanApi": "https://blockscout.com/xdai/optimism"
   },
   {
@@ -2602,7 +2606,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "kcc"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/kcc/info/logo.png"
   },
   {
     "name": "KCC Testnet",
@@ -2625,7 +2629,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "kcc"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/kcc/info/logo.png"
   },
   {
     "name": "Web3Q Mainnet",
@@ -2665,7 +2669,7 @@
         "standard": "none"
       }
     ],
-    "logo": "dfk"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/dfk/info/logo.png"
   },
   {
     "name": "Shiden",
@@ -2686,7 +2690,7 @@
         "icon": "subscan"
       }
     ],
-    "logo": "shiden"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/astar/info/logo.png"
   },
   {
     "name": "Cronos Testnet",
@@ -2709,7 +2713,7 @@
         "standard": "none"
       }
     ],
-    "logo": "cronos",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/cronos/info/logo.png",
     "scanApi": "https://cronos.org/explorer/testnet3"
   },
   {
@@ -2733,7 +2737,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "theta"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/theta/info/logo.png"
   },
   {
     "name": "Theta Sapphire Testnet",
@@ -2756,7 +2760,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "theta"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/theta/info/logo.png"
   },
   {
     "name": "Theta Amber Testnet",
@@ -2779,7 +2783,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "theta"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/theta/info/logo.png"
   },
   {
     "name": "Theta Testnet",
@@ -2802,7 +2806,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "theta"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/theta/info/logo.png"
   },
   {
     "name": "PulseChain Mainnet",
@@ -2864,8 +2868,8 @@
     "shortName": "ogor",
     "chainId": 420,
     "networkId": 420,
-    "nativeCurrencyIcon": "currencies/ethereum",
-    "logo": "optimism"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/optimism/info/logo.png",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png"
   },
   {
     "name": "Rupaya",
@@ -3029,7 +3033,7 @@
       "chain": "eip155-4",
       "bridges": [{ "url": "https://bridge.metis.io" }]
     },
-    "logo": "metis",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/metis/info/logo.png",
     "scanApi": "https://stardust-explorer.metis.io"
   },
   {
@@ -3051,7 +3055,7 @@
         "icon": "subscan"
       }
     ],
-    "logo": "astar"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/astar/info/logo.png"
   },
   {
     "name": "Acala Mandala Testnet",
@@ -3083,7 +3087,7 @@
     "chainId": 596,
     "networkId": 596,
     "slip44": 596,
-    "logo": "karura",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/karura/info/logo.png",
     "explorers": [{ "name": "karura", "url": "", "standard": "none" }]
   },
   {
@@ -3167,7 +3171,7 @@
     "chainId": 686,
     "networkId": 686,
     "slip44": 686,
-    "logo": "karura",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/karura/info/logo.png",
     "explorers": [
       {
         "name": "karura",
@@ -3351,7 +3355,7 @@
     "chainId": 820,
     "networkId": 1,
     "slip44": 820,
-    "logo": "callisto",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/callisto/info/logo.png",
     "explorers": [
       {
         "name": "callistoscan",
@@ -3375,7 +3379,7 @@
     "shortName": "tclo",
     "chainId": 821,
     "networkId": 2,
-    "logo": "callisto",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/callisto/info/logo.png",
     "explorers": [
       {
         "name": "callistoscan",
@@ -3414,7 +3418,7 @@
     "chainId": 888,
     "networkId": 888,
     "slip44": 5718350,
-    "logo": "wanchain"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/wanchain/info/logo.png"
   },
   {
     "name": "Garizon Testnet Stage0",
@@ -3623,7 +3627,8 @@
     "infoURL": "https://testnet.wanscan.org",
     "shortName": "twan",
     "chainId": 999,
-    "networkId": 999
+    "networkId": 999,
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/wanchain/info/logo.png"
   },
   {
     "name": "Klaytn Testnet Baobab",
@@ -3635,7 +3640,7 @@
     "shortName": "Baobab",
     "chainId": 1001,
     "networkId": 1001,
-    "logo": "klaytn",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/klaytn/info/logo.png",
     "explorers": [
       {
         "name": "baobab",
@@ -3749,7 +3754,7 @@
         "standard": "none"
       }
     ],
-    "logo": "bittorrent"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/bittorrent/info/logo.png"
   },
   {
     "name": "Conflux eSpace",
@@ -3770,7 +3775,7 @@
         "standard": "none"
       }
     ],
-    "logo": "conflux",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/conflux/info/logo.png",
     "scanApi": "https://evm.confluxscan.net"
   },
   {
@@ -3795,7 +3800,7 @@
       "chain": "eip155-1",
       "bridges": [{ "url": "https://bridge.metis.io" }]
     },
-    "logo": "metis",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/metis/info/logo.png",
     "scanApi": "https://andromeda-explorer.metis.io"
   },
   {
@@ -3962,7 +3967,7 @@
         "standard": "none"
       }
     ],
-    "logo": "moonbeam",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/moonbeam/info/logo.png",
     "scanApi": "https://api-moonbeam.moonscan.io"
   },
   {
@@ -3982,7 +3987,7 @@
         "standard": "none"
       }
     ],
-    "logo": "moonriver",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/moonriver/info/logo.png",
     "scanApi": "https://api-moonriver.moonscan.io"
   },
   {
@@ -3996,7 +4001,7 @@
     "chainId": 1286,
     "networkId": 1286,
     "status": "deprecated",
-    "logo": "moonbeam"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/moonbeam/info/logo.png"
   },
   {
     "name": "Moonbase Alpha",
@@ -4015,7 +4020,7 @@
         "standard": "none"
       }
     ],
-    "logo": "moonbeam",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/moonbeam/info/logo.png",
     "scanApi": "https://api-moonbase.moonscan.io"
   },
   {
@@ -4028,7 +4033,7 @@
     "shortName": "mrock",
     "chainId": 1288,
     "networkId": 1288,
-    "logo": "moonbeam"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/moonbeam/info/logo.png"
   },
   {
     "name": "CENNZnet old",
@@ -4281,7 +4286,7 @@
         "standard": "none"
       }
     ],
-    "logo": "milkomeda",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/milkomeda/info/logo.png",
     "scanApi": "https://explorer-mainnet-cardano-evm.c1.milkomeda.com"
   },
   {
@@ -4392,7 +4397,8 @@
         "url": "https://cosmoscan-test.hupayx.io",
         "standard": "none"
       }
-    ]
+    ],
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/cosmos/info/logo.png"
   },
   {
     "name": "Rangers Protocol Mainnet",
@@ -4480,7 +4486,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "findora"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/findora/info/logo.png"
   },
   {
     "name": "Findora Testnet",
@@ -4500,7 +4506,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "findora"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/findora/info/logo.png"
   },
   {
     "name": "Evanesco Mainnet",
@@ -4542,7 +4548,7 @@
         "icon": "kava"
       }
     ],
-    "logo": "kava",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/kava/info/logo.png",
     "scanApi": "https://explorer.evm-alpha.kava.io"
   },
   {
@@ -4565,7 +4571,7 @@
         "icon": "kava"
       }
     ],
-    "logo": "kava",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/kava/info/logo.png",
     "scanApi": "https://explorer.kava.io"
   },
   {
@@ -4922,7 +4928,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "fantom",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/fantom/info/logo.png",
     "scanApi": "https://api-testnet.ftmscan.com"
   },
   {
@@ -4984,7 +4990,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "iotex"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/iotex/info/logo.png"
   },
   {
     "name": "IoTeX Network Testnet",
@@ -5003,7 +5009,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "iotex"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/iotex/info/logo.png"
   },
   {
     "name": "Venidium Testnet",
@@ -5116,7 +5122,7 @@
       "chain": "eip155-1",
       "bridges": [{ "url": "https://bridge.nahmii.io" }]
     },
-    "logo": "nahmii",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/nahmii/info/logo.png",
     "scanApi": "https://explorer.nahmii.io"
   },
   {
@@ -5144,7 +5150,7 @@
       "chain": "eip155-3",
       "bridges": [{ "url": "https://bridge.nahmii.io" }]
     },
-    "logo": "nahmii",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/nahmii/info/logo.png",
     "scanApi": "https://explorer.staging.nahmii.net"
   },
   {
@@ -5219,7 +5225,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "ontology"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ontology/info/logo.png"
   },
   {
     "name": "Wegochain Rubidium Mainnet",
@@ -5237,7 +5243,8 @@
         "url": "https://scan2.wegochain.io",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/gochain/info/logo.png"
   },
   {
     "name": "Pixie Chain Mainnet",
@@ -5378,6 +5385,7 @@
         "icon": "teleport"
       }
     ],
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/cosmos/info/logo.png",
     "scanApi": "https://evm-explorer.testnet.teleport.network"
   },
   {
@@ -5405,6 +5413,7 @@
         "icon": "teleport"
       }
     ],
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/cosmos/info/logo.png",
     "scanApi": "https://evm-explorer.testnet.teleport.network"
   },
   {
@@ -5462,7 +5471,7 @@
         "standard": "none"
       }
     ],
-    "logo": "klaytn"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/klaytn/info/logo.png"
   },
   {
     "name": "KorthoTest",
@@ -5606,7 +5615,7 @@
         "icon": "evmos"
       }
     ],
-    "logo": "evmos",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/evmos/info/logo.png",
     "scanApi": "https://evm.evmos.dev"
   },
   {
@@ -5634,7 +5643,7 @@
         "icon": "evmos"
       }
     ],
-    "logo": "evmos",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/evmos/info/logo.png",
     "scanApi": "https://evm.evmos.org"
   },
   {
@@ -5701,7 +5710,7 @@
     "shortName": "smartbch",
     "chainId": 10000,
     "networkId": 10000,
-    "logo": "smartbch"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/smartbch/info/logo.png"
   },
   {
     "name": "Smart Bitcoin Cash Testnet",
@@ -5720,7 +5729,7 @@
     "shortName": "smartbchtest",
     "chainId": 10001,
     "networkId": 10001,
-    "logo": "smartbch"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/smartbch/info/logo.png"
   },
   {
     "name": "Blockchain Genesis Mainnet",
@@ -6054,6 +6063,7 @@
         "standard": "none"
       }
     ],
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/cosmos/info/logo.png",
     "scanApi": "https://10.40.1.211:4000"
   },
   {
@@ -6108,7 +6118,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "oasis",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/oasis/info/logo.png",
     "scanApi": "https://scan.oasischain.io"
   },
   {
@@ -6169,7 +6179,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "gochain"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/gochain/info/logo.png"
   },
   {
     "name": "Bitgert Mainnet",
@@ -6198,7 +6208,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "bitgert",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/bitgert/info/logo.png",
     "scanApi": "https://brisescan.com/api"
   },
   {
@@ -6211,7 +6221,7 @@
     "shortName": "fsn",
     "chainId": 32659,
     "networkId": 32659,
-    "logo": "fusion",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/fusion/info/logo.png",
     "explorers": [
       {
         "name": "fusion",
@@ -6231,7 +6241,7 @@
     "chainId": 39797,
     "networkId": 39797,
     "slip44": 39797,
-    "logo": "energi",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/energi/info/logo.png",
     "explorers": [
       {
         "name": "energi",
@@ -6283,8 +6293,8 @@
       "chain": "eip155-1",
       "bridges": [{ "url": "https://bridge.arbitrum.io" }]
     },
-    "nativeCurrencyIcon": "currencies/ethereum",
-    "logo": "arbitrum",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/arbitrum/info/logo.png",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png",
     "scanApi": "https://api.arbiscan.io"
   },
   {
@@ -6304,7 +6314,7 @@
         "standard": "none"
       }
     ],
-    "logo": "celo",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/celo/info/logo.png",
     "scanApi": "https://explorer.celo.org"
   },
   {
@@ -6387,7 +6397,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "avalanche",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/avalanchec/info/logo.png",
     "scanApi": "https://api-testnet.snowtrace.io"
   },
   {
@@ -6408,7 +6418,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "avalanche",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/avalanchec/info/logo.png",
     "scanApi": "https://api.snowtrace.io"
   },
   {
@@ -6424,7 +6434,7 @@
       "https://cauldron.pretoriaresearchlab.io/alfajores-faucet"
     ],
     "infoURL": "https://docs.celo.org/",
-    "logo": "celo",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/celo/info/logo.png",
     "explorers": [
       {
         "name": "alfajores",
@@ -6472,7 +6482,7 @@
         "standard": "none"
       }
     ],
-    "logo": "rei",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rei/info/logo.png",
     "scanApi": "https://scan.rei.network"
   },
   {
@@ -6486,7 +6496,7 @@
     "chainId": 49797,
     "networkId": 49797,
     "slip44": 49797,
-    "logo": "energi"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/energi/info/logo.png"
   },
   {
     "name": "DFK Chain",
@@ -6508,7 +6518,7 @@
         "standard": "none"
       }
     ],
-    "logo": "dfk"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/dfk/info/logo.png"
   },
   {
     "name": "REI Chain Mainnet",
@@ -6524,7 +6534,7 @@
     "explorers": [
       { "name": "reiscan", "url": "https://reiscan.com", "standard": "EIP3091" }
     ],
-    "logo": "reichain",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/reichain/info/logo.png",
     "scanApi": "https://reiscan.com"
   },
   {
@@ -6545,7 +6555,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "reichain",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/reichain/info/logo.png",
     "scanApi": "https://testnet.reiscan.com"
   },
   {
@@ -6633,7 +6643,7 @@
       "https://cauldron.pretoriaresearchlab.io/baklava-faucet"
     ],
     "infoURL": "https://docs.celo.org/",
-    "logo": "celo",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/celo/info/logo.png",
     "explorers": [
       {
         "name": "baklava",
@@ -6812,7 +6822,7 @@
     "shortName": "ckb",
     "chainId": 71393,
     "networkId": 1,
-    "logo": "godwoken"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/godwoken/info/logo.png"
   },
   {
     "name": "Godwoken Testnet (V1.1)",
@@ -6831,7 +6841,7 @@
         "standard": "none"
       }
     ],
-    "logo": "godwoken"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/godwoken/info/logo.png"
   },
   {
     "name": "Godwoken Mainnet",
@@ -6855,7 +6865,7 @@
         "standard": "none"
       }
     ],
-    "logo": "godwoken"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/godwoken/info/logo.png"
   },
   {
     "name": "Energy Web Volta Testnet",
@@ -6866,7 +6876,8 @@
     "infoURL": "https://energyweb.org",
     "shortName": "vt",
     "chainId": 73799,
-    "networkId": 73799
+    "networkId": 73799,
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/energyweb/info/logo.png"
   },
   {
     "name": "Mixin Virtual Machine",
@@ -6926,7 +6937,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "polygon",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/polygon/info/logo.png",
     "scanApi": "https://api-testnet.polygonscan.com"
   },
   {
@@ -7412,7 +7423,7 @@
         "standard": "none"
       }
     ],
-    "logo": "milkomeda",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/milkomeda/info/logo.png",
     "scanApi": "https://explorer-devnet-cardano-evm.c1.milkomeda.com"
   },
   {
@@ -7489,7 +7500,8 @@
         "url": "https://scan.platon.network",
         "standard": "none"
       }
-    ]
+    ],
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/platon/info/logo.png"
   },
   {
     "name": "Haymo Testnet",
@@ -7557,7 +7569,7 @@
     "shortName": "sparta",
     "chainId": 333888,
     "networkId": 333888,
-    "logo": "polis"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/polis/info/logo.png"
   },
   {
     "name": "Polis Mainnet",
@@ -7570,7 +7582,7 @@
     "shortName": "olympus",
     "chainId": 333999,
     "networkId": 333999,
-    "logo": "polis"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/polis/info/logo.png"
   },
   {
     "name": "Arbitrum Rinkeby",
@@ -7604,8 +7616,8 @@
       "chain": "eip155-4",
       "bridges": [{ "url": "https://bridge.arbitrum.io" }]
     },
-    "nativeCurrencyIcon": "currencies/ethereum",
-    "logo": "arbitrum",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/arbitrum/info/logo.png",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png",
     "scanApi": "https://api-testnet.arbiscan.io"
   },
   {
@@ -7814,7 +7826,8 @@
         "url": "https://explorer.kintsugi.themerge.dev",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/kin/info/logo.png"
   },
   {
     "name": "Kiln",
@@ -7865,7 +7878,8 @@
         "url": "https://devnetscan.platon.network",
         "standard": "none"
       }
-    ]
+    ],
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/platon/info/logo.png"
   },
   {
     "name": "PlatON Dev Testnet2",
@@ -7884,7 +7898,8 @@
         "url": "https://devnet2scan.platon.network",
         "standard": "none"
       }
-    ]
+    ],
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/platon/info/logo.png"
   },
   {
     "name": "Musicoin",
@@ -7922,8 +7937,7 @@
         "url": "https://sepolia.otterscan.io",
         "standard": "EIP3091"
       }
-    ],
-    "logo": "ethereum"
+    ]
   },
   {
     "name": "PepChain Churchill",
@@ -8083,7 +8097,8 @@
         "url": "https://devnet.neonscan.org",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/solana/info/logo.png"
   },
   {
     "name": "Neon EVM MainNet",
@@ -8107,7 +8122,8 @@
         "url": "https://mainnet.neonscan.org",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/solana/info/logo.png"
   },
   {
     "name": "Neon EVM TestNet",
@@ -8131,7 +8147,8 @@
         "url": "https://testnet.neonscan.org",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/solana/info/logo.png"
   },
   {
     "name": "OneLedger Mainnet",
@@ -8222,7 +8239,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "aurora",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/aurora/info/logo.png",
     "scanApi": "https://api.aurorascan.dev"
   },
   {
@@ -8242,7 +8259,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "aurora",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/aurora/info/logo.png",
     "scanApi": "https://api-testnet.aurorascan.dev"
   },
   {
@@ -8255,7 +8272,7 @@
     "shortName": "aurora-betanet",
     "chainId": 1313161556,
     "networkId": 1313161556,
-    "logo": "aurora",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/aurora/info/logo.png",
     "scanApi": "https://api-testnet.aurorascan.dev"
   },
   {
@@ -8274,8 +8291,7 @@
         "url": "https://explorer.harmony.one",
         "standard": "EIP3091"
       }
-    ],
-    "logo": "harmony"
+    ]
   },
   {
     "name": "Harmony Mainnet Shard 1",
@@ -8287,7 +8303,7 @@
     "shortName": "hmy-s1",
     "chainId": 1666600001,
     "networkId": 1666600001,
-    "logo": "harmony"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/harmony/info/logo.png"
   },
   {
     "name": "Harmony Mainnet Shard 2",
@@ -8299,7 +8315,7 @@
     "shortName": "hmy-s2",
     "chainId": 1666600002,
     "networkId": 1666600002,
-    "logo": "harmony"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/harmony/info/logo.png"
   },
   {
     "name": "Harmony Mainnet Shard 3",
@@ -8311,7 +8327,7 @@
     "shortName": "hmy-s3",
     "chainId": 1666600003,
     "networkId": 1666600003,
-    "logo": "harmony"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/harmony/info/logo.png"
   },
   {
     "name": "Harmony Testnet Shard 0",
@@ -8330,7 +8346,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "harmony"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/harmony/info/logo.png"
   },
   {
     "name": "Harmony Testnet Shard 1",
@@ -8342,7 +8358,7 @@
     "shortName": "hmy-b-s1",
     "chainId": 1666700001,
     "networkId": 1666700001,
-    "logo": "harmony"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/harmony/info/logo.png"
   },
   {
     "name": "Harmony Testnet Shard 2",
@@ -8354,7 +8370,7 @@
     "shortName": "hmy-b-s2",
     "chainId": 1666700002,
     "networkId": 1666700002,
-    "logo": "harmony"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/harmony/info/logo.png"
   },
   {
     "name": "Harmony Testnet Shard 3",
@@ -8366,7 +8382,7 @@
     "shortName": "hmy-b-s3",
     "chainId": 1666700003,
     "networkId": 1666700003,
-    "logo": "harmony"
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/harmony/info/logo.png"
   },
   {
     "name": "DataHopper",
@@ -8417,7 +8433,7 @@
         "standard": "EIP3091"
       }
     ],
-    "logo": "palm",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/palm/info/logo.png",
     "scanApi": "https://explorer.palm-uat.xyz"
   },
   {
@@ -8439,7 +8455,7 @@
         "icon": "palm"
       }
     ],
-    "logo": "palm",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/palm/info/logo.png",
     "scanApi": "https://explorer.palm.io"
   },
   {
@@ -8461,7 +8477,7 @@
         "icon": "palm"
       }
     ],
-    "logo": "palm",
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/palm/info/logo.png",
     "scanApi": "https://explorer.palm.io"
   },
   {
@@ -8542,6 +8558,7 @@
         "url": "https://v1.aggron.gwscan.com",
         "standard": "none"
       }
-    ]
+    ],
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/nervos/info/logo.png"
   }
 ]
