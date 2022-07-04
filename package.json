@@ -7,7 +7,7 @@
   "author": "BlockWallet",
   "license": "UNLICENSED",
   "scripts": {
-    "pull-chains": "npx ts-node src/index.ts"
+    "pull-chains": "npx ts-node src/index.ts && tsc"
   },
   "devDependencies": {
     "@types/node": "^17.0.44",
