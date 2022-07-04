@@ -32,7 +32,7 @@ const RATES_IDS_LIST: RateIdList = JSON.parse(
   '${replaceAll(JSON.stringify(ratesList), "'", '')}'
 );
 
-export { RATES_IDS_LIST, RateIdList }`
+export { RATES_IDS_LIST, RateIdList };`
     );
   })();
 
@@ -64,7 +64,7 @@ const ASSET_PLATFORMS_IDS_LIST: AssetPlatformIdList = JSON.parse(
   '${replaceAll(JSON.stringify(assetPlatforms), "'", '')}'
 );
 
-export { ASSET_PLATFORMS_IDS_LIST, AssetPlatformIdList }`
+export { ASSET_PLATFORMS_IDS_LIST, AssetPlatformIdList };`
     );
   })();
 };

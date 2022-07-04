@@ -152,6 +152,6 @@ const CHAIN_LIST: ChainListItem[] = JSON.parse(
   '${replaceAll(JSON.stringify(chainlist), "'", '')}'
 );
 
-export { CHAIN_LIST, ChainListItem }`
+export { CHAIN_LIST, ChainListItem };`
   );
 };
