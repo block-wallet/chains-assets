@@ -1,7 +1,23 @@
 export const EXTRA_CHAIN_DATA_FILE = 'extra-chain-data.json';
 export const CHAIN_LIST_FILE = 'public/chain-list.json';
+export const TOKEN_LIST_FILE = 'public/token-list.json';
+export const RATE_ID_LIST_FILE = 'public/rates-ids-list.json';
+export const ASSET_PLATFORM_ID_LIST_FILE =
+  'public/asset-platforms-ids-list.json';
+
 export const CHAINS_DATASOURCE_URL = 'https://chainid.network/chains.json';
 export const ASSETS_LIST_PATH = 'node_modules/assets/blockchains';
+export const ASSETS_RESOURCES_URL =
+  'https://raw.githubusercontent.com/block-wallet/assets/master/blockchains';
+export const OPTIMISM_TOKEN_LIST_URL =
+  'https://raw.githubusercontent.com/ethereum-optimism/ethereum-optimism.github.io/master/optimism.tokenlist.json';
+export const ARBITRUM_TOKEN_LIST_URL =
+  'https://bridge.arbitrum.io/token-list-42161.json';
+export const COINGECKO_COINS_LIST_URL =
+  'https://api.coingecko.com/api/v3/coins/list';
+export const COINGECKO_ASSET_PLATFORMS_URL =
+  'https://api.coingecko.com/api/v3/asset_platforms';
+
 export const ASSETS_BLOCKCHAINS_CHAIN_ID: { [key in number]: string } = {
   592: 'astar',
   336: 'astar',
@@ -168,3 +184,33 @@ export const ASSETS_BLOCKCHAINS_CHAIN_ID: { [key in number]: string } = {
   51: 'xdc',
   55: 'zyx',
 };
+export const NETWORKS: { [key in string]: number } = {
+  arbitrum: 42161,
+  avalanchec: 43114,
+  callisto: 820,
+  celo: 42220,
+  classic: 61,
+  ellaism: 64,
+  eos: 59,
+  'ether-1': 1313114,
+  ethereum: 1,
+  fantom: 250,
+  gochain: 60,
+  harmony: 1666600000,
+  heco: 128,
+  iotex: 4689,
+  nervos: 71393,
+  ontology: 58,
+  optimism: 10,
+  poa: 77,
+  polygon: 137,
+  smartbch: 10000,
+  smartchain: 56,
+  theta: 361,
+  thundertoken: 108,
+  tomochain: 88,
+  wanchain: 888,
+  xdai: 100,
+  xdc: 50,
+};
+export const MANUAL_BLOCKCHAINS = [NETWORKS['optimism'], NETWORKS['arbitrum']];
