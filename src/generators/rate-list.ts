@@ -28,11 +28,9 @@ export const generator = async () => {
 
 type RateIdList = { [chain in string]: string };
 
-const RATES_IDS_LIST: RateIdList = JSON.parse('${replaceAll(
-        JSON.stringify(ratesList),
-        "'",
-        ''
-      )}')
+const RATES_IDS_LIST: RateIdList = JSON.parse(
+  '${replaceAll(JSON.stringify(ratesList), "'", '')}'
+);
 
 export { RATES_IDS_LIST, RateIdList }`
     );
@@ -62,11 +60,9 @@ export { RATES_IDS_LIST, RateIdList }`
 
 type AssetPlatformIdList = { [chain in string]: string };
 
-const ASSET_PLATFORMS_IDS_LIST: AssetPlatformIdList = JSON.parse('${replaceAll(
-        JSON.stringify(assetPlatforms),
-        "'",
-        ''
-      )}')
+const ASSET_PLATFORMS_IDS_LIST: AssetPlatformIdList = JSON.parse(
+  '${replaceAll(JSON.stringify(assetPlatforms), "'", '')}'
+);
 
 export { ASSET_PLATFORMS_IDS_LIST, AssetPlatformIdList }`
     );

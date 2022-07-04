@@ -148,11 +148,9 @@ type ChainListItem = {
   status?: string;
 };
 
-const CHAIN_LIST: ChainListItem[] = JSON.parse('${replaceAll(
-      JSON.stringify(chainlist),
-      "'",
-      ''
-    )}')
+const CHAIN_LIST: ChainListItem[] = JSON.parse(
+  '${replaceAll(JSON.stringify(chainlist), "'", '')}'
+);
 
 export { CHAIN_LIST, ChainListItem }`
   );

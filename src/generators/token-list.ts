@@ -180,7 +180,9 @@ export const generator = async () => {
 
 const TOKENS_LIST: {
   [key in string]: { [key in string]: { [key in string]: any } };
-} = JSON.parse('${replaceAll(JSON.stringify(TOKENS), "'", '')}')
+} = JSON.parse(
+  '${replaceAll(JSON.stringify(TOKENS), "'", '')}'
+);
 
 export { TOKENS_LIST }`
   );
