@@ -10,4 +10,3 @@ const rates_ids_list_1 = require("./rates-ids-list");
 Object.defineProperty(exports, "RATES_IDS_LIST", { enumerable: true, get: function () { return rates_ids_list_1.RATES_IDS_LIST; } });
 const token_list_1 = require("./token-list");
 Object.defineProperty(exports, "TOKENS_LIST", { enumerable: true, get: function () { return token_list_1.TOKENS_LIST; } });
-//# sourceMappingURL=index.js.map
