@@ -58,7 +58,7 @@ const overloadChainData = (chain: Chain, ecd: Chain): Chain => {
   if (ecd.icon) chain.icon = ecd.icon;
   if (ecd.rpc && ecd.rpc.length)
     if (chain.rpc && chain.rpc.length)
-      chain.rpc = Array.from(new Set([...chain.rpc, ...ecd.rpc]));
+      chain.rpc = Array.from(new Set([...ecd.rpc, ...chain.rpc]));
     else chain.rpc = ecd.rpc;
   if (ecd.faucets && ecd.faucets.length)
     if (chain.faucets && chain.faucets.length)

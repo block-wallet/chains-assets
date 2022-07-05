@@ -1,6 +1,6 @@
 {
   "1": {
-    "rpcs": ["https://mainnet-node.blockwallet.io"],
+    "rpc": ["https://mainnet-node.blockwallet.io"],
     "scanApi": "https://api.etherscan.io"
   },
   "3": {
@@ -21,7 +21,7 @@
     "isTestnet": true
   },
   "10": {
-    "rpcs": ["https://optimism-node.blockwallet.io"],
+    "rpc": ["https://optimism-node.blockwallet.io"],
     "scanApi": "https://api-optimistic.etherscan.io",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png"
   },
@@ -56,7 +56,7 @@
     "scanApi": "http://zyxscan.com"
   },
   "56": {
-    "rpcs": ["https://bsc-node.blockwallet.io"],
+    "rpc": ["https://bsc-node.blockwallet.io"],
     "scanApi": "https://api.bscscan.com"
   },
   "57": {
@@ -94,6 +94,7 @@
   },
   "99": { "scanApi": "https://blockscout.com/poa/core" },
   "100": {
+    "rpc": ["https://xdai-node.blockwallet.io"],
     "scanApi": "https://blockscout.com/xdai/mainnet",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/assets/0x0/logo.png"
   },
@@ -121,7 +122,7 @@
     "scanApi": "https://api.hecoinfo.com"
   },
   "137": {
-    "rpcs": ["https://polygon-node.blockwallet.io"],
+    "rpc": ["https://polygon-node.blockwallet.io"],
     "scanApi": "https://api.polygonscan.com"
   },
   "170": {
@@ -374,7 +375,7 @@
     "scanApi": "https://explorer.energi.network"
   },
   "42161": {
-    "rpcs": ["https://arbitrum-node.blockwallet.io"],
+    "rpc": ["https://arbitrum-node.blockwallet.io"],
     "scanApi": "https://api.arbiscan.io",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png"
   },
@@ -391,7 +392,7 @@
     "isTestnet": true
   },
   "43114": {
-    "rpcs": ["https://avax-node.blockwallet.io"],
+    "rpc": ["https://avax-node.blockwallet.io"],
     "scanApi": "https://api.snowtrace.io"
   },
   "44787": {
