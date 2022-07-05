@@ -7,5 +7,5 @@ A series of scripts that produces outputs for different lists of EVM chains, ERC
 ## How to generate
 
 ```sh
-yarn run pull-chains
+yarn run update
 ```
