@@ -1,6 +1,6 @@
 {
   "name": "@block-wallet/chains-assets",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A list of EVM chains and their tokens",
   "main": "dist/index.js",
   "repository": "git@github.com:block-wallet/chains-assets.git",

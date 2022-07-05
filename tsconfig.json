@@ -1,13 +1,16 @@
 {
   "compilerOptions": {
-    "incremental": true /* Enable incremental compilation */,
-    "target": "es5" /* Specify ECMAScript target version: */,
-    "module": "commonjs" /* 'none', 'commonjs', 'amd', 'system', etc */,
-    "declaration": true /* Concatenate & emit output to single file.*/,
-    "outDir": "dist" /* Redirect output to the directory. */,
-    "esModuleInterop": true /* Enables intero between CommonJS and ES */,
-    "skipLibCheck": true /* Skip type checking of declaration files. */,
-    "forceConsistentCasingInFileNames": true /* Disallow inconsistently */
+    "incremental": true,
+    "target": "es6",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "sourceMap": true
   },
   "include": ["public"]
 }
