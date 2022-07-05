@@ -41,16 +41,16 @@
   },
   "27": { "scanApi": "https://exp.shibachain.net" },
   "30": {
-    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x0/logo.png"
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x/logo.png"
   },
   "31": {
-    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x0/logo.png"
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x/logo.png"
   },
   "52": {
-    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/csc/assets/0x0/logo.png"
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/csc/assets/0x/logo.png"
   },
   "53": {
-    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/csc/assets/0x0/logo.png"
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/csc/assets/0x/logo.png"
   },
   "55": {
     "scanApi": "http://zyxscan.com"
@@ -96,7 +96,7 @@
   "100": {
     "rpc": ["https://xdai-node.blockwallet.io"],
     "scanApi": "https://blockscout.com/xdai/mainnet",
-    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/assets/0x0/logo.png"
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/assets/0x/logo.png"
   },
   "122": {
     "explorers": [
@@ -147,7 +147,7 @@
         "standard": "EIP3091"
       }
     ],
-    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/assets/0x0/logo.png"
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/assets/0x/logo.png"
   },
   "225": {
     "scanApi": "https://scan.lachain.io"
@@ -178,7 +178,7 @@
   },
   "300": {
     "scanApi": "https://blockscout.com/xdai/optimism",
-    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/assets/0x0/logo.png"
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/assets/0x/logo.png"
   },
   "338": {
     "scanApi": "https://cronos.org/explorer/testnet3",
@@ -336,6 +336,9 @@
   },
   "9001": {
     "scanApi": "https://evm.evmos.org"
+  },
+  "10000": {
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/bitcoincash/info/logo.png"
   },
   "10946": { "scanApi": "https://explorer.quadrans.io" },
   "10947": {
