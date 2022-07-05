@@ -1,3 +1,5 @@
+import { replaceAll } from './helpers';
+
 export type Chain = {
   name: string;
   chain: string;
@@ -50,21 +52,24 @@ export class Token implements IToken {
   };
 
   constructor(token: IToken) {
-    this.name = token.name;
-    this.logo =
+    this.name = replaceAll(token.name, '"', '');
+    this.logo = replaceAll(
       typeof token.logo === 'string'
         ? token.logo
         : 'src' in token.logo
         ? token.logo['src']
-        : '';
-    this.type = token.type;
-    this.symbol = token.symbol;
+        : '',
+      '"',
+      ''
+    );
+    this.type = replaceAll(token.type, '"', '');
+    this.symbol = replaceAll(token.symbol, '"', '');
     this.decimals = token.decimals;
 
     if (token.l1Bridge) {
       this.l1Bridge = {
-        tokenAddress: token.l1Bridge.tokenAddress,
-        bridgeAddress: token.l1Bridge.bridgeAddress,
+        tokenAddress: replaceAll(token.l1Bridge.tokenAddress, '"', ''),
+        bridgeAddress: replaceAll(token.l1Bridge.bridgeAddress, '"', ''),
       };
     }
   }
