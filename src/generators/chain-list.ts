@@ -16,6 +16,8 @@ import {
 } from '../utils/helpers';
 import { Chain, ExtraChainData } from '../utils/types';
 
+const ONLY_HTTP_REGEX = new RegExp('^(http)://', 'i');
+
 const rpcFilter = (rpc: string[]): string[] => {
   return rpc
     .map(removeTrailingSlash)
@@ -23,7 +25,8 @@ const rpcFilter = (rpc: string[]): string[] => {
     .filter((rpc) => !rpc.includes('${ALCHEMY_API_KEY}'))
     .filter((rpc) => !rpc.includes('${API_KEY}'))
     .filter((rpc) => !rpc.includes('wss://'))
-    .filter((rpc) => !rpc.includes('ws://'));
+    .filter((rpc) => !rpc.includes('ws://'))
+    .filter((rpc) => rpc.match(ONLY_HTTP_REGEX) === null);
 };
 
 const overloadChainLogoWithAssetsRepository = (chain: Chain): Chain => {
