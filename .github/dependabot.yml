@@ -9,4 +9,6 @@ updates:
       interval: "daily"
     assignees:
       - "@block-wallet/backgroundreviewers"
+    reviewers:
+      - "@block-wallet/backgroundreviewers"
       
