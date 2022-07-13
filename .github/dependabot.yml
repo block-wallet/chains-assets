@@ -7,4 +7,6 @@ updates:
     directory: "/" 
     schedule:
       interval: "daily"
+    assignees:
+      - "@block-wallet/backgroundreviewers"
       
