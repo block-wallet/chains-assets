@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@types/node": "^18.0.4",
-    "assets": "https://github.com/block-wallet/assets#v0.0.2",
+    "assets": "https://github.com/block-wallet/assets#v0.0.3",
     "axios": "^0.27.2",
     "banned-assets": "https://github.com/block-wallet/banned-assets#v0.0.1",
     "ethereumjs-util": "^7.1.5",
