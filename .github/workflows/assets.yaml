@@ -6,15 +6,25 @@ on:
 permissions:
   contents: write
 
+env:
+  GH_ACCESS_TOKEN: ${{ secrets.USER_PAT }}:${{ secrets.PAT }}
+
 jobs:
-  dependabot:
-    name: 'Dependabot'
+  bump_and_tag:
     runs-on: [self-hosted, small]
     if: ${{ github.actor == 'dependabot[bot]' && github.event_name == 'pull_request' && (contains(github.event.pull_request.title, 'Bump assets') || contains(github.event.pull_request.title, 'Bump banned-assets') )}}
     steps:
-      
+      - name: Install gh
+        run: |
+          curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+          echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+          apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 4EB27DB2A3B88B8B
+          apt update
+          apt install gh
+
       - name: Enable auto-merge for Dependabot PRs
-        run: gh pr merge --auto --merge "$PR_URL"
+        run: |
+          gh pr merge --auto --merge "$PR_URL"
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
           GITHUB_TOKEN: ${{secrets.PAT}}
@@ -24,8 +34,42 @@ jobs:
         with:
           ref: main
       
-      - name: Bump version and push tag
-        uses: mathieudutour/github-tag-action@v6.0
+      - name: Checkout repository
+        uses: actions/checkout@v3
         with:
-          github_token: ${{ secrets.PAT }}
-          default_bump: patch
+          ref: main
+
+      - name: Install node
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: .nvmrc
+
+      - name: Install yarn
+        run: |
+          npm install --global yarn
+
+      - name: Install dependencies
+        run: |
+          yarn install
+
+      - name: Update files
+        run: |
+          yarn run update
+      
+      - name: Initialize mandatory git config
+        run: |
+          git config --global user.name auto_bump
+          git config --global user.email auto_bump@blockwallet.io
+          git config --global url.https://$GH_ACCESS_TOKEN@github.com/.insteadOf https://github.com/
+
+      - name: Commit and push changes
+        run: |
+          git add package.json dist/
+          git commit -m "chore: update dist/ and version"
+          git push
+
+      - name: Push tag
+        run: |
+          version=$(cat package.json | jq .version)
+          git tag $version
+          git push --tags
