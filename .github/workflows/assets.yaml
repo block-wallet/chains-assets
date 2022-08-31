@@ -1,0 +1,31 @@
+name: Assets
+
+on:
+  pull_request:
+
+permissions:
+  contents: write
+
+jobs:
+  dependabot:
+    name: 'Dependabot'
+    runs-on: [self-hosted, small]
+    if: ${{ github.actor == 'dependabot[bot]' && github.event_name == 'pull_request' && (contains(github.event.pull_request.title, 'Bump assets') || contains(github.event.pull_request.title, 'Bump banned-assets') )}}
+    steps:
+      
+      - name: Enable auto-merge for Dependabot PRs
+        run: gh pr merge --auto --merge "$PR_URL"
+        env:
+          PR_URL: ${{github.event.pull_request.html_url}}
+          GITHUB_TOKEN: ${{secrets.PAT}}
+      
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          ref: main
+      
+      - name: Bump version and push tag
+        uses: mathieudutour/github-tag-action@v6.0
+        with:
+          github_token: ${{ secrets.PAT }}
+          default_bump: patch
