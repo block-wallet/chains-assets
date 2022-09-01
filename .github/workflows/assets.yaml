@@ -11,7 +11,7 @@ env:
 
 jobs:
   bump_and_tag:
-    runs-on: [self-hosted, small]
+    runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' && github.event_name == 'pull_request' && (contains(github.event.pull_request.title, 'Bump assets') || contains(github.event.pull_request.title, 'Bump banned-assets') )}}
     steps:
       - name: Install gh
@@ -21,6 +21,12 @@ jobs:
           apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 4EB27DB2A3B88B8B
           apt update
           apt install gh
+
+      - name: Initialize mandatory git config
+        run: |
+          git config --global user.name auto_bump
+          git config --global user.email auto_bump@blockwallet.io
+          git config --global url.https://$GH_ACCESS_TOKEN@github.com/.insteadOf https://github.com/
 
       - name: Enable auto-merge for Dependabot PRs
         run: |
@@ -51,12 +57,6 @@ jobs:
         run: |
           yarn run update
       
-      - name: Initialize mandatory git config
-        run: |
-          git config --global user.name auto_bump
-          git config --global user.email auto_bump@blockwallet.io
-          git config --global url.https://$GH_ACCESS_TOKEN@github.com/.insteadOf https://github.com/
-
       - name: Commit and push changes
         run: |
           git add package.json dist/
