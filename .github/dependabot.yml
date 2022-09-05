@@ -8,6 +8,7 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+      time: "12:30"
     commit-message:
       prefix: "chore: workflow"
     labels:
