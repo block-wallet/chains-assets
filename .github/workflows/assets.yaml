@@ -12,7 +12,7 @@ env:
 jobs:
   bump_and_tag:
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request' && ( contains(github.event.pull_request.title, 'assets') || contains(github.event.pull_request.title, 'banned-assets') )
+    if: github.actor == 'dependabot[bot]' && github.event_name == 'pull_request' && ( contains(github.event.pull_request.title, 'bump assets') || contains(github.event.pull_request.title, 'bump banned-assets') )
     steps:
       - name: Initialize mandatory git config
         run: |
@@ -57,6 +57,6 @@ jobs:
 
       - name: Push tag
         run: |
-          version=$(cat package.json | jq .version)
+          version=v$(cat package.json | jq .version | tr -d '"' )
           git tag $version
           git push --tags
