@@ -12,7 +12,7 @@ env:
 jobs:
   bump_and_tag:
     runs-on: ubuntu-latest
-    if: ${{ github.actor == 'dependabot[bot]' && github.event_name == 'pull_request' && (contains(github.event.pull_request.title, 'Bump assets') || contains(github.event.pull_request.title, 'Bump banned-assets') )}}
+    if: github.event_name == 'pull_request' && (contains(github.event.pull_request.title, 'Bump assets') || contains(github.event.pull_request.title, 'Bump banned-assets') )}}
     steps:
       - name: Initialize mandatory git config
         run: |
