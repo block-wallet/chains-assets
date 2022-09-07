@@ -26,8 +26,4 @@ updates:
     labels:
       - "npm"
       - "dependencies"
-    assignees:
-      - "@block-wallet/backgroundreviewers"
-    reviewers:
-      - "@block-wallet/backgroundreviewers"
       
