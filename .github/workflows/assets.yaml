@@ -1,0 +1,62 @@
+name: Assets
+
+on:
+  pull_request:
+
+permissions:
+  contents: write
+
+env:
+  GH_ACCESS_TOKEN: ${{ secrets.USER_PAT }}:${{ secrets.PAT }}
+
+jobs:
+  bump_and_tag:
+    runs-on: ubuntu-latest
+    if: github.actor == 'dependabot[bot]' && github.event_name == 'pull_request' && ( contains(github.event.pull_request.title, 'bump assets') || contains(github.event.pull_request.title, 'bump banned-assets') )
+    steps:
+      - name: Initialize mandatory git config
+        run: |
+          git config --global user.name auto_bump
+          git config --global user.email auto_bump@blockwallet.io
+          git config --global url.https://$GH_ACCESS_TOKEN@github.com/.insteadOf https://github.com/
+
+      - name: Enable auto-merge for Dependabot PRs
+        run: |
+          gh pr merge --auto --merge "$PR_URL"
+        env:
+          PR_URL: ${{github.event.pull_request.html_url}}
+          GH_TOKEN: ${{secrets.PAT}}
+      
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: Install node
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: .nvmrc
+
+      - name: Install yarn
+        run: |
+          npm install --global yarn
+
+      - name: Install dependencies
+        run: |
+          yarn install
+
+      - name: Update files
+        run: |
+          yarn run update
+      
+      - name: Commit and push changes
+        run: |
+          git add package.json dist/
+          git commit -m "chore: update dist/ and version"
+          git push
+
+      - name: Push tag
+        run: |
+          version=v$(cat package.json | jq .version | tr -d '"' )
+          git tag $version
+          git push --tags

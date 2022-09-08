@@ -3,12 +3,27 @@
 
 version: 2
 updates:
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "chore: workflow"
+    labels:
+      - "workflow"
+      - "dependencies"
+    reviewers:
+      - "block-wallet/devopsreviewers"
+updates:
   - package-ecosystem: "npm" 
     directory: "/" 
     schedule:
       interval: "daily"
-    assignees:
-      - "@block-wallet/backgroundreviewers"
-    reviewers:
-      - "@block-wallet/backgroundreviewers"
+      time: "14:00"
+    commit-message:
+      prefix: "chore: npm"
+    labels:
+      - "npm"
+      - "dependencies"
       
