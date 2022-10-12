@@ -12,6 +12,7 @@
     "isTestnet": true
   },
   "5": {
+    "rpc": ["https://goerli-node.blockwallet.io"],
     "scanApi": "https://api-goerli.etherscan.io",
     "nativeCurrency": {
       "name": "Görli Ether",
@@ -157,6 +158,7 @@
   },
   "246": { "scanApi": "https://explorer.energyweb.org" },
   "250": {
+    "rpc": ["https://fantom-node.blockwallet.io"],
     "scanApi": "https://api.ftmscan.com"
   },
   "256": {
