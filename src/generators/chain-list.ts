@@ -126,7 +126,6 @@ export const generator = async () => {
   // Fetch new chainlist json
   const chainlist = (await get<Chain[]>(CHAINS_DATASOURCE_URL)).map(parseChain);
   const newChains = addChains(newChainsData, chainlist)
-  console.log(newChains)
   writeFileStringSync(
     CHAIN_LIST_FILE,
     `${AUTO_GENERATED_FILE_LABEL}
