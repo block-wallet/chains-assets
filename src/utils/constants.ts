@@ -1,4 +1,5 @@
 export const EXTRA_CHAIN_DATA_FILE = 'extra-chain-data.json';
+export const NEW_CHAIN_DATA_FILE = 'new-chain-data.json';
 export const CHAIN_LIST_FILE = 'public/chain-list.ts';
 export const TOKEN_LIST_FILE = 'public/token-list.ts';
 export const RATES_IDS_LIST_FILE = 'public/rates-ids-list.ts';

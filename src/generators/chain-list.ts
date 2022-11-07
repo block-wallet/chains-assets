@@ -5,6 +5,7 @@ import {
   CHAINS_DATASOURCE_URL,
   CHAIN_LIST_FILE,
   EXTRA_CHAIN_DATA_FILE,
+  NEW_CHAIN_DATA_FILE,
 } from '../utils/constants';
 import {
   get,
@@ -14,7 +15,7 @@ import {
   writeFileStringSync,
   writeFileSync,
 } from '../utils/helpers';
-import { Chain, ExtraChainData } from '../utils/types';
+import { Chain, ExtraChainData,NewChainData } from '../utils/types';
 
 const ONLY_HTTP_REGEX = new RegExp('^(http)://', 'i');
 
@@ -91,6 +92,7 @@ const overloadChainData = (chain: Chain, ecd: Chain): Chain => {
 export const generator = async () => {
   // Read current scan-apis json
   const extraChainsData = readFileSync<ExtraChainData>(EXTRA_CHAIN_DATA_FILE);
+  const newChainsData = readFileSync<NewChainData>(NEW_CHAIN_DATA_FILE);
 
   const parseChain = (chain: Chain): Chain => {
     chain = overloadChainLogoWithAssetsRepository(chain);
@@ -109,9 +111,22 @@ export const generator = async () => {
     };
   };
 
+
+  
+  const addChains = (newChainsData: NewChainData, chainlist: Chain[]): Chain[] => {
+    const newChains : Chain[] = []
+    for (const chain in newChainsData) {
+      if (!(chain in chainlist)) {
+        newChains.push(newChainsData[chain])
+      }
+    }
+    return newChains
+  }
+
   // Fetch new chainlist json
   const chainlist = (await get<Chain[]>(CHAINS_DATASOURCE_URL)).map(parseChain);
-
+  const newChains = addChains(newChainsData, chainlist)
+  console.log(newChains)
   writeFileStringSync(
     CHAIN_LIST_FILE,
     `${AUTO_GENERATED_FILE_LABEL}
@@ -152,7 +167,7 @@ type ChainListItem = {
 };
 
 const CHAIN_LIST: ChainListItem[] = JSON.parse(
-  '${replaceAll(JSON.stringify(chainlist), "'", '')}'
+  '${replaceAll(JSON.stringify([...chainlist, ...newChains]), "'", '')}'
 );
 
 export { CHAIN_LIST, ChainListItem };
