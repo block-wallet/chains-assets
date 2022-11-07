@@ -460,8 +460,7 @@
     "name": "Sroll L2 Testnet",
     "nativeCurrency": { "name": "Ether", "symbol": "TSETH", "decimals": 18 },
     "shortName": "scroll-l2-testnet",
-    "faucets": ["https://prealpha.scroll.io/faucet"],
-    "logo": "https://github.com/block-wallet/assets/blob/master/blockchains/scroll/info/logo.png"
+    "faucets": ["https://prealpha.scroll.io/faucet"]
     
   },
   "1313114": { "scanApi": "https://ethoprotocol.com" },

@@ -25,6 +25,6 @@
             }
         ],
         "isTestnet": true,
-        "logo": "https://github.com/block-wallet/assets/blob/master/blockchains/scroll/info/logo.png"
+        "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/scroll/info/logo.png"
     }
 }

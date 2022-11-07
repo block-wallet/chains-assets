@@ -187,6 +187,8 @@ export const ASSETS_BLOCKCHAINS_CHAIN_ID: { [key in number]: string } = {
   50: 'xdc',
   51: 'xdc',
   55: 'zyx',
+  534354: 'scroll',
+  534351: 'scroll',
 };
 export const NETWORKS: { [key in string]: number } = {
   arbitrum: 42161,
