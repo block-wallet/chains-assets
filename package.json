@@ -14,7 +14,7 @@
   "devDependencies": {
     "@types/node": "^18.7.16",
     "assets": "https://github.com/block-wallet/assets#v0.0.11",
-    "axios": "^0.27.2",
+    "axios": "^1.1.3",
     "banned-assets": "https://github.com/block-wallet/banned-assets#v0.0.1",
     "ethereumjs-util": "^7.1.5",
     "ts-node": "^10.9.1",
