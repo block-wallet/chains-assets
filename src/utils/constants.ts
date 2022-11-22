@@ -1,4 +1,5 @@
 export const EXTRA_CHAIN_DATA_FILE = 'extra-chain-data.json';
+export const NEW_CHAIN_DATA_FILE = 'new-chain-data.json';
 export const CHAIN_LIST_FILE = 'public/chain-list.ts';
 export const TOKEN_LIST_FILE = 'public/token-list.ts';
 export const RATES_IDS_LIST_FILE = 'public/rates-ids-list.ts';
@@ -186,6 +187,8 @@ export const ASSETS_BLOCKCHAINS_CHAIN_ID: { [key in number]: string } = {
   50: 'xdc',
   51: 'xdc',
   55: 'zyx',
+  534354: 'scroll',
+  534351: 'scroll',
 };
 export const NETWORKS: { [key in string]: number } = {
   arbitrum: 42161,

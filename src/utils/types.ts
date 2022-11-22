@@ -28,6 +28,10 @@ export type ExtraChainData = {
   [chainId in string]: Chain;
 };
 
+export type NewChainData = {
+  [chainId in string]: Chain;
+};
+
 export interface IToken {
   name: string;
   logo: string;
