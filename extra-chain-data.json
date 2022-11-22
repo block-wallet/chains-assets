@@ -42,10 +42,12 @@
   },
   "27": { "scanApi": "https://exp.shibachain.net" },
   "30": {
-    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x/logo.png"
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x/logo.png",
+    "rpc": ["https://did.rsk.co:4444"]
   },
   "31": {
-    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x/logo.png"
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x/logo.png",
+    "rpc": ["https://did.testnet.rsk.co:4444"]
   },
   "52": {
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/csc/assets/0x/logo.png"
