@@ -43,7 +43,7 @@
   "27": { "scanApi": "https://exp.shibachain.net" },
   "30": {
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x/logo.png",
-    "rpc": ["https://did.rsk.co:4444"]
+    "rpc": ["https://did.rsk.co:4444", "https://rsk-node.blockwallet.io"]
   },
   "31": {
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x/logo.png",
@@ -176,6 +176,9 @@
   },
   "269": {
     "scanApi": "https://hscan.org"
+  },
+  "280": {
+    "rpc": ["https://zksync-testnet-node.blockwallet.io"]
   },
   "288": {
     "scanApi": "https://blockexplorer.boba.network"
