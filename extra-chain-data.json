@@ -347,6 +347,27 @@
   "10000": {
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/bitcoincash/info/logo.png"
   },
+  "10001": {
+    "name": "ETHW Mainnet",
+    "chain": "ETHW-mainnet",
+    "rpc": ["https://mainnet.ethereumpow.org"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ETH POW",
+      "symbol": "ETHW",
+      "decimals": 18
+    },
+    "infoURL": "https://ethereumpow.org/",
+    "shortName": "ETHW-mainnet",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereumpow/info/logo.png",
+    "explorers": [
+      {
+        "name": "ethwscan",
+        "url": "https://mainnet.ethwscan.com",
+        "standard": "none"
+      }
+    ]
+  },
   "10946": { "scanApi": "https://explorer.quadrans.io" },
   "10947": {
     "scanApi": "https://explorer.testnet.quadrans.io",
@@ -466,7 +487,6 @@
     "nativeCurrency": { "name": "Ether", "symbol": "TSETH", "decimals": 18 },
     "shortName": "scroll-l2-testnet",
     "faucets": ["https://prealpha.scroll.io/faucet"]
-    
   },
   "1313114": { "scanApi": "https://ethoprotocol.com" },
   "1337802": { "scanApi": "https://explorer.kiln.themerge.dev" },
