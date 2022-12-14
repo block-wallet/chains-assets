@@ -1,6 +1,6 @@
 {
   "name": "@block-wallet/chains-assets",
-  "version": "0.0.22",
+  "version": "0.0.24",
   "description": "A generator of lists of EVM chains, ERC20 tokens and exchange rates metadata to be consumed by the extension.",
   "main": "dist/index.js",
   "repository": "git@github.com:block-wallet/chains-assets.git",

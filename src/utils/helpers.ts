@@ -13,7 +13,9 @@ export const writeFileStringSync = (path: string, data: string): void =>
   fs.writeFileSync(path, data);
 
 export const get = async <T>(url: string): Promise<T> => {
-  const response = await axios.get(url);
+  const response = await axios.get(url, {
+    headers: { 'Accept-Encoding': 'gzip,deflate,compress', Accept: '*/*' },
+  });
   if (response.status != 200) {
     throw new Error(`Error fetching ${url}`);
   }

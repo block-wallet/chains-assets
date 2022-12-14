@@ -21,7 +21,7 @@ export const generator = async () => {
     // exceptions
     ratesList['FTM'] = 'fantom';
     ratesList['ETH'] = 'ethereum';
-    // ratesList['ETHW'] = 'ethereumpow';
+    ratesList['ETHW'] = 'ethereumpow';
 
     writeFileStringSync(
       RATES_IDS_LIST_FILE,
