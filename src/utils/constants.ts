@@ -160,7 +160,7 @@ export const ASSETS_BLOCKCHAINS_CHAIN_ID: { [key in number]: string } = {
   30: 'rsk',
   31: 'rsk',
   10000: 'smartbch',
-  10001: 'smartbch',
+  10001: 'ethereumpow',
   56: 'smartchain',
   97: 'smartchain',
   245022926: 'solana',
