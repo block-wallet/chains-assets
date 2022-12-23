@@ -88,9 +88,9 @@ arg@^4.1.0:
   resolved "https://registry.yarnpkg.com/arg/-/arg-4.1.3.tgz#269fc7ad5b8e42cb63c896d5666017261c144089"
   integrity sha512-58S9QDqG0Xx27YwPSt9fJxivjYl432YCwfDMfZ+71RAqUrZef7LrKQZ3LHLOwCS4FLNBplP533Zx895SeOCHvA==
 
-"assets@https://github.com/block-wallet/assets#v0.0.11":
+"assets@https://github.com/block-wallet/assets#v0.0.12":
   version "0.0.0"
-  resolved "https://github.com/block-wallet/assets#6579f911763c92132eee7345d6a344f2c22d3318"
+  resolved "https://github.com/block-wallet/assets#7ca3881d0caba8cf83dbd54f56a5fdbfa80fde1a"
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -106,11 +106,11 @@ axios@^1.2.1:
     form-data "^4.0.0"
     proxy-from-env "^1.1.0"
 
-"banned-assets@https://github.com/block-wallet/banned-assets#v0.0.1":
+"banned-assets@https://github.com/block-wallet/banned-assets#v0.0.2":
   version "0.0.1"
-  resolved "https://github.com/block-wallet/banned-assets#6541fdafd7aefc0c67e8d7aca54908bc773bcfdc"
+  resolved "https://github.com/block-wallet/banned-assets#2945453fee56135b6709ebdb7d4153f7f2c3b4be"
   dependencies:
-    ethereumjs-util "^7.1.4"
+    ethereumjs-util "^7.1.5"
 
 base-x@^3.0.2:
   version "3.0.9"
@@ -259,7 +259,7 @@ ethereum-cryptography@^0.1.3:
     secp256k1 "^4.0.1"
     setimmediate "^1.0.5"
 
-ethereumjs-util@^7.1.4, ethereumjs-util@^7.1.5:
+ethereumjs-util@^7.1.5:
   version "7.1.5"
   resolved "https://registry.yarnpkg.com/ethereumjs-util/-/ethereumjs-util-7.1.5.tgz#9ecf04861e4fbbeed7465ece5f23317ad1129181"
   integrity sha512-SDl5kKrQAudFBUe5OJM9Ac6WmMyYmXX/6sTmLZ3ffG2eY6ZIGBes3pEDxNN6V72WyOw4CPD5RomKdsa8DAAwLg==
