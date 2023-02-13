@@ -88,9 +88,9 @@ arg@^4.1.0:
   resolved "https://registry.yarnpkg.com/arg/-/arg-4.1.3.tgz#269fc7ad5b8e42cb63c896d5666017261c144089"
   integrity sha512-58S9QDqG0Xx27YwPSt9fJxivjYl432YCwfDMfZ+71RAqUrZef7LrKQZ3LHLOwCS4FLNBplP533Zx895SeOCHvA==
 
-"assets@https://github.com/block-wallet/assets#v0.0.12":
+"assets@https://github.com/block-wallet/assets#v0.0.13":
   version "0.0.0"
-  resolved "https://github.com/block-wallet/assets#7ca3881d0caba8cf83dbd54f56a5fdbfa80fde1a"
+  resolved "https://github.com/block-wallet/assets#c055d8b689eaf4a29e8c3077f6534604ffd54c31"
 
 asynckit@^0.4.0:
   version "0.4.0"

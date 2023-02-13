@@ -1,4 +1,4 @@
-declare type RateIdList = {
+type RateIdList = {
     [chain in string]: string;
 };
 declare const RATES_IDS_LIST: RateIdList;
