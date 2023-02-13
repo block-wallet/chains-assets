@@ -1,4 +1,4 @@
-declare type ChainListItem = {
+type ChainListItem = {
     name: string;
     chain: string;
     title?: string;
