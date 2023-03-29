@@ -16,7 +16,7 @@ export const ASSETS_RESOURCES_URL =
 export const OPTIMISM_TOKEN_LIST_URL =
   'https://raw.githubusercontent.com/ethereum-optimism/ethereum-optimism.github.io/master/optimism.tokenlist.json';
 export const ARBITRUM_TOKEN_LIST_URL =
-  'https://bridge.arbitrum.io/token-list-42161.json';
+  'https://tokenlist.arbitrum.io/ArbTokenLists/arbed_arb_whitelist_era.json';
 export const COINGECKO_COINS_LIST_URL =
   'https://api.coingecko.com/api/v3/coins/list';
 export const COINGECKO_ASSET_PLATFORMS_URL =
@@ -219,4 +219,4 @@ export const NETWORKS: { [key in string]: number } = {
   xdai: 100,
   xdc: 50,
 };
-export const MANUAL_BLOCKCHAINS = [NETWORKS['optimism'], NETWORKS['arbitrum']];
+export const MANUAL_BLOCKCHAINS = [NETWORKS['optimism']];

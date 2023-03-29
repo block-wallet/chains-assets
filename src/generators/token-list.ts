@@ -161,17 +161,19 @@ export const generator = async () => {
         checkSummedAddress = toChecksumAddress(checkSummedAddress);
       }
 
-      TOKENS[NETWORKS['arbitrum']][checkSummedAddress] = new Token({
-        name: token.name,
-        logo: token.logoURI || '',
-        type: '',
-        symbol: token.symbol,
-        decimals: token.decimals,
-        l1Bridge: {
-          tokenAddress: token.extensions?.l1Address,
-          bridgeAddress: token.extensions?.l1GatewayAddress,
-        },
-      });
+      if (!TOKENS[NETWORKS['arbitrum']][checkSummedAddress]) {
+        TOKENS[NETWORKS['arbitrum']][checkSummedAddress] = new Token({
+          name: token.name,
+          logo: token.logoURI || '',
+          type: '',
+          symbol: token.symbol,
+          decimals: token.decimals,
+          l1Bridge: {
+            tokenAddress: token.extensions?.l1Address,
+            bridgeAddress: token.extensions?.l1GatewayAddress,
+          },
+        });
+      }
     });
 
   writeFileStringSync(
