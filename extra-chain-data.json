@@ -1,6 +1,9 @@
 {
   "1": {
-    "rpc": ["https://mainnet-node.blockwallet.io"],
+    "rpc": [
+      "https://mainnet-node.blockwallet.io",
+      "https://mainnet.blockwallet.io"
+    ],
     "scanApi": "https://api.etherscan.io"
   },
   "3": {
@@ -12,7 +15,10 @@
     "isTestnet": true
   },
   "5": {
-    "rpc": ["https://goerli-node.blockwallet.io"],
+    "rpc": [
+      "https://goerli-node.blockwallet.io",
+      "https://goerli.blockwallet.io"
+    ],
     "scanApi": "https://api-goerli.etherscan.io",
     "nativeCurrency": {
       "name": "Görli Ether",
@@ -22,7 +28,10 @@
     "isTestnet": true
   },
   "10": {
-    "rpc": ["https://optimism-node.blockwallet.io"],
+    "rpc": [
+      "https://optimism-node.blockwallet.io",
+      "https://optimism.blockwallet.io"
+    ],
     "scanApi": "https://api-optimistic.etherscan.io",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png"
   },
@@ -43,7 +52,7 @@
   "27": { "scanApi": "https://exp.shibachain.net" },
   "30": {
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x/logo.png",
-    "rpc": ["https://did.rsk.co:4444", "https://rsk-node.blockwallet.io"]
+    "rpc": ["https://rsk-node.blockwallet.io", "https://rsk.blockwallet.io"]
   },
   "31": {
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x/logo.png",
@@ -59,7 +68,7 @@
     "scanApi": "http://zyxscan.com"
   },
   "56": {
-    "rpc": ["https://bsc-node.blockwallet.io"],
+    "rpc": ["https://bsc-node.blockwallet.io", "https://bsc.blockwallet.io"],
     "scanApi": "https://api.bscscan.com"
   },
   "57": {
@@ -97,7 +106,7 @@
   },
   "99": { "scanApi": "https://blockscout.com/poa/core" },
   "100": {
-    "rpc": ["https://xdai-node.blockwallet.io"],
+    "rpc": ["https://xdai-node.blockwallet.io", "https://xdai.blockwallet.io"],
     "scanApi": "https://blockscout.com/xdai/mainnet",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/assets/0x/logo.png"
   },
@@ -125,7 +134,10 @@
     "scanApi": "https://api.hecoinfo.com"
   },
   "137": {
-    "rpc": ["https://polygon-node.blockwallet.io"],
+    "rpc": [
+      "https://polygon-node.blockwallet.io",
+      "https://polygon.blockwallet.io"
+    ],
     "scanApi": "https://api.polygonscan.com"
   },
   "170": {
@@ -160,7 +172,10 @@
   },
   "246": { "scanApi": "https://explorer.energyweb.org" },
   "250": {
-    "rpc": ["https://fantom-node.blockwallet.io"],
+    "rpc": [
+      "https://fantom-node.blockwallet.io",
+      "https://fantom.blockwallet.io"
+    ],
     "scanApi": "https://api.ftmscan.com"
   },
   "256": {
@@ -178,7 +193,10 @@
     "scanApi": "https://hscan.org"
   },
   "280": {
-    "rpc": ["https://zksync-testnet-node.blockwallet.io"]
+    "rpc": [
+      "https://zksync-testnet-node.blockwallet.io",
+      "https://zksync-testnet.blockwallet.io"
+    ]
   },
   "288": {
     "scanApi": "https://blockexplorer.boba.network"
@@ -186,6 +204,12 @@
   "300": {
     "scanApi": "https://blockscout.com/xdai/optimism",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/assets/0x/logo.png"
+  },
+  "324": {
+    "rpc": [
+      "https://zksync-node.blockwallet.io",
+      "https://zksync.blockwallet.io"
+    ]
   },
   "338": {
     "scanApi": "https://cronos.org/explorer/testnet3",
@@ -252,6 +276,12 @@
   },
   "1088": {
     "scanApi": "https://andromeda-explorer.metis.io"
+  },
+  "1101": {
+    "rpc": [
+      "https://polygon-zkevm-node.blockwallet.io",
+      "https://polygon-zkevm.blockwallet.io"
+    ]
   },
   "1214": {
     "scanApi": "https://scan.entercoin.net",
@@ -406,7 +436,10 @@
     "scanApi": "https://explorer.energi.network"
   },
   "42161": {
-    "rpc": ["https://arbitrum-node.blockwallet.io"],
+    "rpc": [
+      "https://arbitrum-node.blockwallet.io",
+      "https://arbitrum.blockwallet.io"
+    ],
     "scanApi": "https://api.arbiscan.io",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png"
   },
@@ -423,7 +456,7 @@
     "isTestnet": true
   },
   "43114": {
-    "rpc": ["https://avax-node.blockwallet.io"],
+    "rpc": ["https://avax-node.blockwallet.io", "https://avax.blockwallet.io"],
     "scanApi": "https://api.snowtrace.io"
   },
   "44787": {
@@ -487,8 +520,8 @@
     "nativeCurrency": { "name": "Ether", "symbol": "TSETH", "decimals": 18 },
     "shortName": "scroll-l2-testnet",
     "rpc": [
-      "https://prealpha-rpc.scroll.io/l2",
-      "https://scroll-l2-testnet-node.blockwallet.io"
+      "https://scroll-l2-testnet-node.blockwallet.io",
+      "https://scroll-l2-testnet.blockwallet.io"
     ],
     "faucets": ["https://prealpha.scroll.io/faucet"]
   },
