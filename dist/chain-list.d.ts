@@ -39,7 +39,8 @@ type ChainListItem = {
     status?: string;
 };
 declare const CHAIN_LIST: ChainListItem[];
-declare const ASSETS_BLOCKCHAINS_CHAIN_ID: {
+type AssetsBlockchainIdList = {
     [key in number]: string;
 };
-export { CHAIN_LIST, ASSETS_BLOCKCHAINS_CHAIN_ID, ChainListItem };
+declare const ASSETS_BLOCKCHAINS_CHAIN_ID: AssetsBlockchainIdList;
+export { CHAIN_LIST, ChainListItem, ASSETS_BLOCKCHAINS_CHAIN_ID, AssetsBlockchainIdList };
