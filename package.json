@@ -12,7 +12,7 @@
     "bump": "yarn version --patch --no-git-tag-version --no-commit-hooks"
   },
   "devDependencies": {
-    "@types/node": "^18.11.18",
+    "@types/node": "^20.5.3",
     "assets": "https://github.com/block-wallet/assets#v0.0.17",
     "axios": "^1.2.2",
     "banned-assets": "https://github.com/block-wallet/banned-assets#v0.0.2",
