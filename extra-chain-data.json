@@ -557,5 +557,6 @@
     "scanApi": "https://explorer.palm.io"
   },
   "197710212030": { "scanApi": "https://blockscout.ntity.io" },
-  "197710212031": { "scanApi": "https://blockscout.haradev.com" }
+  "197710212031": { "scanApi": "https://blockscout.haradev.com" },
+  "1116": { "nativeCurrencyIcon": "https://scan.coredao.org/images/icon.png" }
 }

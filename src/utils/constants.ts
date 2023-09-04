@@ -190,7 +190,8 @@ export const ASSETS_BLOCKCHAINS_CHAIN_ID: { [key in number]: string } = {
   534354: 'scroll',
   534351: 'scroll',
   324: 'zksync',
-  1101: 'polygonzkevm'
+  1101: 'polygonzkevm',
+  1116: 'core'
 };
 export const NETWORKS: { [key in string]: number } = {
   arbitrum: 42161,
@@ -221,6 +222,7 @@ export const NETWORKS: { [key in string]: number } = {
   xdai: 100,
   xdc: 50,
   zksync: 324,
-  polygonzkevm: 1101
+  polygonzkevm: 1101,
+  core: 1116
 };
 export const MANUAL_BLOCKCHAINS = [NETWORKS['optimism']];
