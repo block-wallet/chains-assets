@@ -193,6 +193,7 @@ export const ASSETS_BLOCKCHAINS_CHAIN_ID: { [key in number]: string } = {
   1101: 'polygonzkevm',
   1116: 'core',
   59144: 'linea',
+  7001: 'zetachaintestnet',
 };
 export const NETWORKS: { [key in string]: number } = {
   arbitrum: 42161,
@@ -226,5 +227,6 @@ export const NETWORKS: { [key in string]: number } = {
   polygonzkevm: 1101,
   core: 1116,
   linea: 59144,
+  zetachaintestnet: 7001,
 };
 export const MANUAL_BLOCKCHAINS = [NETWORKS['optimism']];
