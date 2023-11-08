@@ -515,15 +515,21 @@
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png",
     "isTestnet": true
   },
-  "534354": {
-    "name": "Sroll L2 Testnet",
-    "nativeCurrency": { "name": "Ether", "symbol": "TSETH", "decimals": 18 },
+  "534351": {
+    "name": "Sroll Sepolia Testnet",
+    "isTestnet": true,
+    "nativeCurrency": { "name": "Ether", "symbol": "ETH", "decimals": 18 },
     "shortName": "scroll-l2-testnet",
+    "rpc": ["https://sepolia-rpc.scroll.io/"],
+    "scanApi": "https://sepolia.scrollscan.com",
+    "faucets": ["https://docs.scroll.io/en/user-guide/faucet/"]
+  },
+  "534352": {
     "rpc": [
-      "https://scroll-l2-testnet-node.blockwallet.io",
-      "https://scroll-l2-testnet.blockwallet.io"
-    ],
-    "faucets": ["https://prealpha.scroll.io/faucet"]
+      "https://scroll-node.blockwallet.io",
+      "https://scroll.blockwallet.io",
+      "https://rpc.scroll.io/"
+    ]
   },
   "1313114": { "scanApi": "https://ethoprotocol.com" },
   "1337802": { "scanApi": "https://explorer.kiln.themerge.dev" },

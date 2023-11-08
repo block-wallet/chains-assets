@@ -187,8 +187,8 @@ export const ASSETS_BLOCKCHAINS_CHAIN_ID: { [key in number]: string } = {
   50: 'xdc',
   51: 'xdc',
   55: 'zyx',
-  534354: 'scroll',
   534351: 'scroll',
+  534352: 'scroll',
   324: 'zksync',
   1101: 'polygonzkevm',
   1116: 'core',
@@ -228,5 +228,6 @@ export const NETWORKS: { [key in string]: number } = {
   core: 1116,
   linea: 59144,
   zetachaintestnet: 7001,
+  scroll: 534352,
 };
 export const MANUAL_BLOCKCHAINS = [NETWORKS['optimism']];
