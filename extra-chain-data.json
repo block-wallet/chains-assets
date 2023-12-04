@@ -35,7 +35,9 @@
     "scanApi": "https://api-optimistic.etherscan.io",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png"
   },
-  "16": { "scanApi": "https://coston-explorer.flare.network" },
+  "16": {
+    "scanApi": "https://coston-explorer.flare.network"
+  },
   "18": {
     "scanApi": "https://explorer-testnet.thundercore.com",
     "isTestnet": true
@@ -49,14 +51,21 @@
   "25": {
     "scanApi": "https://cronos.org/explorer"
   },
-  "27": { "scanApi": "https://exp.shibachain.net" },
+  "27": {
+    "scanApi": "https://exp.shibachain.net"
+  },
   "30": {
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x/logo.png",
-    "rpc": ["https://rsk-node.blockwallet.io", "https://rsk.blockwallet.io"]
+    "rpc": [
+      "https://rsk-node.blockwallet.io",
+      "https://rsk.blockwallet.io"
+    ]
   },
   "31": {
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x/logo.png",
-    "rpc": ["https://did.testnet.rsk.co:4444"]
+    "rpc": [
+      "https://did.testnet.rsk.co:4444"
+    ]
   },
   "52": {
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/csc/assets/0x/logo.png"
@@ -68,7 +77,10 @@
     "scanApi": "http://zyxscan.com"
   },
   "56": {
-    "rpc": ["https://bsc-node.blockwallet.io", "https://bsc.blockwallet.io"],
+    "rpc": [
+      "https://bsc-node.blockwallet.io",
+      "https://bsc.blockwallet.io"
+    ],
     "scanApi": "https://api.bscscan.com"
   },
   "57": {
@@ -95,18 +107,33 @@
     "scanApi": "https://evmtestnet.confluxscan.net",
     "isTestnet": true
   },
-  "74": { "scanApi": "https://explorer.idchain.one" },
-  "77": { "scanApi": "https://blockscout.com/poa/sokol" },
-  "79": { "scanApi": "https://scan.zenithchain.co" },
-  "81": { "scanApi": "https://vilnius.scan.zenithchain.co" },
-  "96": { "scanApi": "https://explorer.nextsmartchain.com" },
+  "74": {
+    "scanApi": "https://explorer.idchain.one"
+  },
+  "77": {
+    "scanApi": "https://blockscout.com/poa/sokol"
+  },
+  "79": {
+    "scanApi": "https://scan.zenithchain.co"
+  },
+  "81": {
+    "scanApi": "https://vilnius.scan.zenithchain.co"
+  },
+  "96": {
+    "scanApi": "https://explorer.nextsmartchain.com"
+  },
   "97": {
     "scanApi": "https://api-testnet.bscscan.com",
     "isTestnet": true
   },
-  "99": { "scanApi": "https://blockscout.com/poa/core" },
+  "99": {
+    "scanApi": "https://blockscout.com/poa/core"
+  },
   "100": {
-    "rpc": ["https://xdai-node.blockwallet.io", "https://xdai.blockwallet.io"],
+    "rpc": [
+      "https://xdai-node.blockwallet.io",
+      "https://xdai.blockwallet.io"
+    ],
     "scanApi": "https://blockscout.com/xdai/mainnet",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/assets/0x/logo.png"
   },
@@ -151,8 +178,12 @@
     "scanApi": "https://testnet.hooscan.com",
     "isTestnet": true
   },
-  "180": { "scanApi": "https://amescan.io" },
-  "186": { "scanApi": "https://seeleview.net" },
+  "180": {
+    "scanApi": "https://amescan.io"
+  },
+  "186": {
+    "scanApi": "https://seeleview.net"
+  },
   "200": {
     "scanApi": "https://blockscout.com/xdai/aox",
     "explorers": [
@@ -170,7 +201,9 @@
   "226": {
     "scanApi": "https://scan-test.lachain.io"
   },
-  "246": { "scanApi": "https://explorer.energyweb.org" },
+  "246": {
+    "scanApi": "https://explorer.energyweb.org"
+  },
   "250": {
     "rpc": [
       "https://fantom-node.blockwallet.io",
@@ -218,8 +251,12 @@
   "420": {
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png"
   },
-  "534": { "scanApi": "https://candleexplorer.com" },
-  "555": { "scanApi": "https://exp.velaverse.io" },
+  "534": {
+    "scanApi": "https://candleexplorer.com"
+  },
+  "555": {
+    "scanApi": "https://exp.velaverse.io"
+  },
   "588": {
     "scanApi": "https://stardust-explorer.metis.io"
   },
@@ -293,7 +330,9 @@
       }
     ]
   },
-  "1280": { "scanApi": "https://browser.halo.land" },
+  "1280": {
+    "scanApi": "https://browser.halo.land"
+  },
   "1284": {
     "scanApi": "https://api-moonbeam.moonscan.io"
   },
@@ -303,7 +342,9 @@
   "1287": {
     "scanApi": "https://api-moonbase.moonscan.io"
   },
-  "1818": { "scanApi": "https://openapi.cubescan.network" },
+  "1818": {
+    "scanApi": "https://openapi.cubescan.network"
+  },
   "1819": {
     "scanApi": "https://openapi-testnet.cubescan.network",
     "isTestnet": true
@@ -315,28 +356,55 @@
     "scanApi": "https://explorer.testnet.cloudwalk.io",
     "isTestnet": true
   },
-  "2009": { "scanApi": "https://explorer.mainnet.cloudwalk.io" },
+  "2009": {
+    "scanApi": "https://explorer.mainnet.cloudwalk.io"
+  },
   "2221": {
     "scanApi": "https://explorer.evm-alpha.kava.io"
   },
   "2222": {
     "scanApi": "https://explorer.kava.io"
   },
-  "2223": { "scanApi": "https://scan.vcex.xyz" },
-  "2569": { "scanApi": "https://tpcscan.com" },
-  "2612": { "scanApi": "https://cchain-explorer.ezchain.com" },
+  "2223": {
+    "scanApi": "https://scan.vcex.xyz"
+  },
+  "2569": {
+    "scanApi": "https://tpcscan.com"
+  },
+  "2612": {
+    "scanApi": "https://cchain-explorer.ezchain.com"
+  },
   "2613": {
     "scanApi": "https://testnet-cchain-explorer.ezchain.com",
     "isTestnet": true
   },
-  "3333": { "scanApi": "https://explorer.testnet.web3q.io", "isTestnet": true },
-  "3334": { "scanApi": "https://explorer.galileo.web3q.io" },
-  "3400": { "scanApi": "https://explorer.paribu.network" },
-  "3500": { "scanApi": "https://testnet.paribuscan.com/", "isTestnet": true },
-  "3690": { "scanApi": "https://api.bittex.com" },
-  "3737": { "scanApi": "https://scan.crossbell.io" },
-  "3966": { "scanApi": "https://dynoscan.io" },
-  "3967": { "scanApi": "https://testnet.dynoscan.io", "isTestnet": true },
+  "3333": {
+    "scanApi": "https://explorer.testnet.web3q.io",
+    "isTestnet": true
+  },
+  "3334": {
+    "scanApi": "https://explorer.galileo.web3q.io"
+  },
+  "3400": {
+    "scanApi": "https://explorer.paribu.network"
+  },
+  "3500": {
+    "scanApi": "https://testnet.paribuscan.com/",
+    "isTestnet": true
+  },
+  "3690": {
+    "scanApi": "https://api.bittex.com"
+  },
+  "3737": {
+    "scanApi": "https://scan.crossbell.io"
+  },
+  "3966": {
+    "scanApi": "https://dynoscan.io"
+  },
+  "3967": {
+    "scanApi": "https://testnet.dynoscan.io",
+    "isTestnet": true
+  },
   "4002": {
     "scanApi": "https://api-testnet.ftmscan.com",
     "isTestnet": true
@@ -347,8 +415,12 @@
   "5553": {
     "scanApi": "https://explorer.staging.nahmii.net"
   },
-  "5700": { "scanApi": "https://tanenbaum.io" },
-  "6626": { "scanApi": "https://scan.chain.pixie.xyz" },
+  "5700": {
+    "scanApi": "https://tanenbaum.io"
+  },
+  "6626": {
+    "scanApi": "https://scan.chain.pixie.xyz"
+  },
   "7027": {
     "explorers": [
       {
@@ -358,7 +430,9 @@
       }
     ]
   },
-  "7341": { "scanApi": "https://bx.shyft.network/" },
+  "7341": {
+    "scanApi": "https://bx.shyft.network/"
+  },
   "8000": {
     "scanApi": "https://evm-explorer.testnet.teleport.network",
     "isTestnet": true
@@ -367,7 +441,9 @@
     "scanApi": "https://evm-explorer.testnet.teleport.network",
     "isTestnet": true
   },
-  "8898": { "scanApi": "https://mmtscan.io" },
+  "8898": {
+    "scanApi": "https://mmtscan.io"
+  },
   "9000": {
     "scanApi": "https://evm.evmos.dev"
   },
@@ -380,7 +456,9 @@
   "10001": {
     "name": "ETHW Mainnet",
     "chain": "ETHW-mainnet",
-    "rpc": ["https://mainnet.ethereumpow.org"],
+    "rpc": [
+      "https://mainnet.ethereumpow.org"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "ETH POW",
@@ -398,21 +476,39 @@
       }
     ]
   },
-  "10946": { "scanApi": "https://explorer.quadrans.io" },
+  "10946": {
+    "scanApi": "https://explorer.quadrans.io"
+  },
   "10947": {
     "scanApi": "https://explorer.testnet.quadrans.io",
     "isTestnet": true
   },
-  "11437": { "scanApi": "https://bx.testnet.shyft.network", "isTestnet": true },
-  "13381": { "scanApi": "https://phoenixplorer.com" },
-  "16888": { "scanApi": "https://testnet.ivarscan.com", "isTestnet": true },
-  "19845": { "scanApi": "https://btcixscan.com" },
-  "21816": { "scanApi": "http://explorer.omchain.io" },
-  "22023": { "scanApi": "https://10.40.1.211:4000" },
+  "11437": {
+    "scanApi": "https://bx.testnet.shyft.network",
+    "isTestnet": true
+  },
+  "13381": {
+    "scanApi": "https://phoenixplorer.com"
+  },
+  "16888": {
+    "scanApi": "https://testnet.ivarscan.com",
+    "isTestnet": true
+  },
+  "19845": {
+    "scanApi": "https://btcixscan.com"
+  },
+  "21816": {
+    "scanApi": "http://explorer.omchain.io"
+  },
+  "22023": {
+    "scanApi": "https://10.40.1.211:4000"
+  },
   "26863": {
     "scanApi": "https://scan.oasischain.io"
   },
-  "30067": { "scanApi": "https://scan.test.piecenetwork.com" },
+  "30067": {
+    "scanApi": "https://scan.test.piecenetwork.com"
+  },
   "32520": {
     "scanApi": "https://brisescan.com/api"
   },
@@ -450,13 +546,18 @@
     "scanApi": "https://testnet.explorer.emerald.oasis.dev",
     "isTestnet": true
   },
-  "42262": { "scanApi": "https://explorer.emerald.oasis.dev" },
+  "42262": {
+    "scanApi": "https://explorer.emerald.oasis.dev"
+  },
   "43113": {
     "scanApi": "https://api-testnet.snowtrace.io",
     "isTestnet": true
   },
   "43114": {
-    "rpc": ["https://avax-node.blockwallet.io", "https://avax.blockwallet.io"],
+    "rpc": [
+      "https://avax-node.blockwallet.io",
+      "https://avax.blockwallet.io"
+    ],
     "scanApi": "https://api.snowtrace.io"
   },
   "44787": {
@@ -490,8 +591,12 @@
     "scanApi": "https://baklava-blockscout.celo-testnet.org",
     "isTestnet": true
   },
-  "63000": { "scanApi": "https://explorer.ecredits.com" },
-  "63001": { "scanApi": "https://explorer.tst.ecredits.com" },
+  "63000": {
+    "scanApi": "https://explorer.ecredits.com"
+  },
+  "63001": {
+    "scanApi": "https://explorer.tst.ecredits.com"
+  },
   "71402": {
     "explorers": [
       {
@@ -505,8 +610,12 @@
     "scanApi": "https://api-testnet.polygonscan.com",
     "isTestnet": true
   },
-  "88888": { "scanApi": "https://ivarscan.com" },
-  "103090": { "scanApi": "https://scan.crystaleum.org" },
+  "88888": {
+    "scanApi": "https://ivarscan.com"
+  },
+  "103090": {
+    "scanApi": "https://scan.crystaleum.org"
+  },
   "200101": {
     "scanApi": "https://explorer-devnet-cardano-evm.c1.milkomeda.com"
   },
@@ -518,11 +627,19 @@
   "534351": {
     "name": "Sroll Sepolia Testnet",
     "isTestnet": true,
-    "nativeCurrency": { "name": "Ether", "symbol": "ETH", "decimals": 18 },
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
     "shortName": "scroll-l2-testnet",
-    "rpc": ["https://sepolia-rpc.scroll.io/"],
+    "rpc": [
+      "https://sepolia-rpc.scroll.io/"
+    ],
     "scanApi": "https://sepolia.scrollscan.com",
-    "faucets": ["https://docs.scroll.io/en/user-guide/faucet/"]
+    "faucets": [
+      "https://docs.scroll.io/en/user-guide/faucet/"
+    ]
   },
   "534352": {
     "rpc": [
@@ -531,9 +648,15 @@
       "https://rpc.scroll.io/"
     ]
   },
-  "1313114": { "scanApi": "https://ethoprotocol.com" },
-  "1337802": { "scanApi": "https://explorer.kiln.themerge.dev" },
-  "192837465": { "scanApi": "https://explorer.gather.network" },
+  "1313114": {
+    "scanApi": "https://ethoprotocol.com"
+  },
+  "1337802": {
+    "scanApi": "https://explorer.kiln.themerge.dev"
+  },
+  "192837465": {
+    "scanApi": "https://explorer.gather.network"
+  },
   "356256156": {
     "scanApi": "https://testnet-explorer.gather.network",
     "isTestnet": true
@@ -562,19 +685,29 @@
   "11297108109": {
     "scanApi": "https://explorer.palm.io"
   },
-  "197710212030": { "scanApi": "https://blockscout.ntity.io" },
-  "197710212031": { "scanApi": "https://blockscout.haradev.com" },
-  "1116": { "nativeCurrencyIcon": "https://scan.coredao.org/images/icon.png" },
+  "197710212030": {
+    "scanApi": "https://blockscout.ntity.io"
+  },
+  "197710212031": {
+    "scanApi": "https://blockscout.haradev.com"
+  },
+  "1116": {
+    "nativeCurrencyIcon": "https://scan.coredao.org/images/icon.png"
+  },
   "1350216234": {
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/skale/titan.png",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/skale/titan.png"
   },
   "1482601649": {
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/skale/nebula.png",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/skale/nebula.png"
   },
   "1564830818": {
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/skale/calypso.png",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/skale/calypso.png"
   },
   "2046399126": {
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/skale/europa.png",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/skale/europa.png"
   }
 }
