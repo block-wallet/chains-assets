@@ -564,5 +564,17 @@
   },
   "197710212030": { "scanApi": "https://blockscout.ntity.io" },
   "197710212031": { "scanApi": "https://blockscout.haradev.com" },
-  "1116": { "nativeCurrencyIcon": "https://scan.coredao.org/images/icon.png" }
+  "1116": { "nativeCurrencyIcon": "https://scan.coredao.org/images/icon.png" },
+  "1350216234": {
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/skale/titan.png"
+  },
+  "1482601649": {
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/skale/nebula.png"
+  },
+  "1564830818": {
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/skale/calypso.png"
+  },
+  "2046399126": {
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/skale/europa.png"
+  }
 }

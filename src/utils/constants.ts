@@ -196,6 +196,7 @@ export const ASSETS_BLOCKCHAINS_CHAIN_ID: { [key in number]: string } = {
   7001: 'zetachaintestnet',
   195: 'x1',
   5000: 'mantle',
+  8453: 'base',
 };
 export const NETWORKS: { [key in string]: number } = {
   arbitrum: 42161,
@@ -233,5 +234,6 @@ export const NETWORKS: { [key in string]: number } = {
   scroll: 534352,
   x1: 195,
   mantle: 5000,
+  base: 8453,
 };
 export const MANUAL_BLOCKCHAINS = [NETWORKS['optimism']];
