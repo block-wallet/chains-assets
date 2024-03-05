@@ -709,5 +709,9 @@
   "2046399126": {
     "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/skale/europa.png",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/skale/europa.png"
+  },
+  "10242": {
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/arthera/info/logo.png",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/arthera/info/logo.png"
   }
 }
