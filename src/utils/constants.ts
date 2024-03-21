@@ -198,6 +198,7 @@ export const ASSETS_BLOCKCHAINS_CHAIN_ID: { [key in number]: string } = {
   5000: 'mantle',
   8453: 'base',
   10242: 'arthera',
+  2525: 'inevm',
 };
 export const NETWORKS: { [key in string]: number } = {
   arbitrum: 42161,
@@ -237,5 +238,6 @@ export const NETWORKS: { [key in string]: number } = {
   mantle: 5000,
   base: 8453,
   arthera: 10243,
+  inevm: 2525,
 };
 export const MANUAL_BLOCKCHAINS = [NETWORKS['optimism']];

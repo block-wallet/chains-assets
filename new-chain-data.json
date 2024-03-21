@@ -1,31 +1,29 @@
 {
-    "534351": {
-        "name": "Sroll L1 Testnet",
-        "chain": "ETH",
-        "rpc": [
-            "https://prealpha-rpc.scroll.io/l1",
-            "https://scroll-l1-testnet-node.blockwallet.io"
-        ],
-        "faucets": [
-            "https://prealpha.scroll.io/faucet"
-        ],
-        "nativeCurrency": {
-            "name": "Ether",
-            "symbol": "TSETH",
-            "decimals": 18
-        },
-        "infoURL": "https://scroll.io",
-        "shortName": "scroll-l1-testnet",
-        "chainId": 534351,
-        "networkId": 534351,
-        "explorers": [
-            {
-                "name": "Scroll L1 Block Explorer",
-                "url": "https://prealpha.scroll.io/l1scan",
-                "standard": "EIP3091"
-            }
-        ],
-        "isTestnet": true,
-        "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/scroll/info/logo.png"
-    }
+  "534351": {
+    "name": "Sroll L1 Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://prealpha-rpc.scroll.io/l1",
+      "https://scroll-l1-testnet-node.blockwallet.io"
+    ],
+    "faucets": ["https://prealpha.scroll.io/faucet"],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "TSETH",
+      "decimals": 18
+    },
+    "infoURL": "https://scroll.io",
+    "shortName": "scroll-l1-testnet",
+    "chainId": 534351,
+    "networkId": 534351,
+    "explorers": [
+      {
+        "name": "Scroll L1 Block Explorer",
+        "url": "https://prealpha.scroll.io/l1scan",
+        "standard": "EIP3091"
+      }
+    ],
+    "isTestnet": true,
+    "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/scroll/info/logo.png"
+  }
 }

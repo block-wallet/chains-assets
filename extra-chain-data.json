@@ -56,16 +56,11 @@
   },
   "30": {
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x/logo.png",
-    "rpc": [
-      "https://rsk-node.blockwallet.io",
-      "https://rsk.blockwallet.io"
-    ]
+    "rpc": ["https://rsk-node.blockwallet.io", "https://rsk.blockwallet.io"]
   },
   "31": {
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x/logo.png",
-    "rpc": [
-      "https://did.testnet.rsk.co:4444"
-    ]
+    "rpc": ["https://did.testnet.rsk.co:4444"]
   },
   "52": {
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/csc/assets/0x/logo.png"
@@ -77,10 +72,7 @@
     "scanApi": "http://zyxscan.com"
   },
   "56": {
-    "rpc": [
-      "https://bsc-node.blockwallet.io",
-      "https://bsc.blockwallet.io"
-    ],
+    "rpc": ["https://bsc-node.blockwallet.io", "https://bsc.blockwallet.io"],
     "scanApi": "https://api.bscscan.com"
   },
   "57": {
@@ -130,10 +122,7 @@
     "scanApi": "https://blockscout.com/poa/core"
   },
   "100": {
-    "rpc": [
-      "https://xdai-node.blockwallet.io",
-      "https://xdai.blockwallet.io"
-    ],
+    "rpc": ["https://xdai-node.blockwallet.io", "https://xdai.blockwallet.io"],
     "scanApi": "https://blockscout.com/xdai/mainnet",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/assets/0x/logo.png"
   },
@@ -456,9 +445,7 @@
   "10001": {
     "name": "ETHW Mainnet",
     "chain": "ETHW-mainnet",
-    "rpc": [
-      "https://mainnet.ethereumpow.org"
-    ],
+    "rpc": ["https://mainnet.ethereumpow.org"],
     "faucets": [],
     "nativeCurrency": {
       "name": "ETH POW",
@@ -554,10 +541,7 @@
     "isTestnet": true
   },
   "43114": {
-    "rpc": [
-      "https://avax-node.blockwallet.io",
-      "https://avax.blockwallet.io"
-    ],
+    "rpc": ["https://avax-node.blockwallet.io", "https://avax.blockwallet.io"],
     "scanApi": "https://api.snowtrace.io"
   },
   "44787": {
@@ -633,13 +617,9 @@
       "decimals": 18
     },
     "shortName": "scroll-l2-testnet",
-    "rpc": [
-      "https://sepolia-rpc.scroll.io/"
-    ],
+    "rpc": ["https://sepolia-rpc.scroll.io/"],
     "scanApi": "https://sepolia.scrollscan.com",
-    "faucets": [
-      "https://docs.scroll.io/en/user-guide/faucet/"
-    ]
+    "faucets": ["https://docs.scroll.io/en/user-guide/faucet/"]
   },
   "534352": {
     "rpc": [
@@ -713,5 +693,21 @@
   "10242": {
     "logo": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/arthera/info/logo.png",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/arthera/info/logo.png"
+  },
+  "2525": {
+    "logo": "https://explorer.injective.network/vendor/@injectivelabs/token-metadata/injective-v3.png",
+    "nativeCurrencyIcon": "https://explorer.injective.network/vendor/@injectivelabs/token-metadata/injective-v3.png",
+    "nativeCurrency": {
+      "name": "INJ",
+      "symbol": "INJ",
+      "decimals": 18
+    },
+    "explorers": [
+      {
+        "name": "inEVM Explorer",
+        "url": "https://explorer.inevm.com/",
+        "standard": "none"
+      }
+    ]
   }
 }
