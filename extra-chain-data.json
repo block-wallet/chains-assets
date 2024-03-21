@@ -695,6 +695,8 @@
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/arthera/info/logo.png"
   },
   "2525": {
+    "logo": "https://explorer.injective.network/vendor/@injectivelabs/token-metadata/injective-v3.png",
+    "nativeCurrencyIcon": "https://explorer.injective.network/vendor/@injectivelabs/token-metadata/injective-v3.png",
     "nativeCurrency": {
       "name": "INJ",
       "symbol": "INJ",
