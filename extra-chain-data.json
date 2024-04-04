@@ -695,6 +695,12 @@
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/arthera/info/logo.png"
   },
   "2525": {
+    "name": "inEVM",
+    "chain": "ETH",
+    "infoURL": "https://injective.com/",
+    "shortName": "inevm",
+    "chainId": 2525,
+    "networkId": 2525,
     "logo": "https://explorer.injective.network/vendor/@injectivelabs/token-metadata/injective-v3.png",
     "nativeCurrencyIcon": "https://explorer.injective.network/vendor/@injectivelabs/token-metadata/injective-v3.png",
     "rpc": ["https://mainnet.rpc.inevm.com/http"],
@@ -712,6 +718,12 @@
     ]
   },
   "810180": {
+    "name": "zkLink Nova",
+    "chain": "ETH",
+    "infoURL": "https://zklink.io/",
+    "shortName": "zklink-nova",
+    "chainId": 810180,
+    "networkId": 810180,
     "logo": "https://explorer.zklink.io/images/icons/cion.png",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png",
     "nativeCurrency": {
@@ -729,6 +741,12 @@
     ]
   },
   "196": {
+    "name": "X Layer Mainnet",
+    "chain": "ETH",
+    "infoURL": "https://www.okx.com/",
+    "shortName": "okx",
+    "chainId": 196,
+    "networkId": 196,
     "logo": "https://drive.google.com/uc?export=download&id=1whx1u5l7vungA5uzATucI9_YUcbQTDkx",
     "nativeCurrencyIcon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3897.png",
     "nativeCurrency": {
