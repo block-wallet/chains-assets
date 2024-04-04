@@ -697,6 +697,7 @@
   "2525": {
     "logo": "https://explorer.injective.network/vendor/@injectivelabs/token-metadata/injective-v3.png",
     "nativeCurrencyIcon": "https://explorer.injective.network/vendor/@injectivelabs/token-metadata/injective-v3.png",
+    "rpc": ["https://mainnet.rpc.inevm.com/http"],
     "nativeCurrency": {
       "name": "INJ",
       "symbol": "INJ",
@@ -706,6 +707,40 @@
       {
         "name": "inEVM Explorer",
         "url": "https://explorer.inevm.com/",
+        "standard": "none"
+      }
+    ]
+  },
+  "810180": {
+    "logo": "https://explorer.zklink.io/images/icons/cion.png",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/ethereum/info/logo.png",
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "rpc": ["https://rpc.zklink.io"],
+    "explorers": [
+      {
+        "name": "zkLink Explorer",
+        "url": "https://explorer.zklink.io",
+        "standard": "none"
+      }
+    ]
+  },
+  "196": {
+    "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3897.png",
+    "nativeCurrencyIcon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3897.png",
+    "nativeCurrency": {
+      "name": "OKB",
+      "symbol": "OKB",
+      "decimals": 18
+    },
+    "rpc": ["https://rpc.xlayer.tech"],
+    "explorers": [
+      {
+        "name": "OKX Explorer",
+        "url": "https://www.okx.com/explorer/xlayer",
         "standard": "none"
       }
     ]
