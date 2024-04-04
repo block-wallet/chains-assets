@@ -747,7 +747,7 @@
     "shortName": "okx",
     "chainId": 196,
     "networkId": 196,
-    "logo": "https://drive.google.com/uc?export=download&id=1whx1u5l7vungA5uzATucI9_YUcbQTDkx",
+    "logo": "https://raw.githubusercontent.com/block-wallet/chain-images/main/XLayer_Icon_Black.png",
     "nativeCurrencyIcon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3897.png",
     "nativeCurrency": {
       "name": "OKB",
