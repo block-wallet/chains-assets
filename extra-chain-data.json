@@ -762,5 +762,14 @@
         "standard": "none"
       }
     ]
+  },
+  "88": {
+    "explorers": [
+      {
+        "name": "Viction - Blockchain Explorer",
+        "url": "https://www.vicscan.xyz",
+        "standard": "none"
+      }
+    ]
   }
 }
