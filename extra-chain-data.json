@@ -771,5 +771,28 @@
         "standard": "none"
       }
     ]
+  },
+  "1329": {
+    "name": "Sei Metwork",
+    "chain": "ETH",
+    "infoURL": "https://www.sei.io/",
+    "shortName": "sei",
+    "chainId": 1329,
+    "networkId": 1329,
+    "logo": "https://cdn.sei.io/assets/Sei_Symbol_Gradient.png",
+    "nativeCurrencyIcon": "https://cdn.sei.io/assets/Sei_Symbol_Gradient.png",
+    "nativeCurrency": {
+      "name": "SEI",
+      "symbol": "SEI",
+      "decimals": 18
+    },
+    "rpc": ["https://evm-rpc.sei-apis.com"],
+    "explorers": [
+      {
+        "name": "SEI Explorer",
+        "url": "https://seitrace.com/",
+        "standard": "none"
+      }
+    ]
   }
 }
