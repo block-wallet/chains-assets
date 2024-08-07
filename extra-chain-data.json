@@ -794,28 +794,5 @@
         "standard": "none"
       }
     ]
-  },
-  "41455": {
-    "name": "Aleph Zero EVM",
-    "chain": "ETH",
-    "infoURL": "https://alephzero.org/",
-    "shortName": "aleph-zero",
-    "chainId": 41455,
-    "networkId": 41455,
-    "logo": "https://raw.githubusercontent.com/block-wallet/chain-images/main/A0-mark-black.svg",
-    "nativeCurrencyIcon": "https://raw.githubusercontent.com/block-wallet/chain-images/main/A0-mark-black.svg",
-    "nativeCurrency": {
-      "name": "AZERO",
-      "symbol": "AZERO",
-      "decimals": 18
-    },
-    "rpc": ["https://rpc.alephzero.raas.gelato.cloud"],
-    "explorers": [
-      {
-        "name": "Aleph Zero EVM Explorer",
-        "url": "https://aleph-zero-evm.blockscout.com/",
-        "standard": "none"
-      }
-    ]
   }
 }
