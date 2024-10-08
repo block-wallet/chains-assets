@@ -803,7 +803,6 @@
     "chainId": 2810,
     "networkId": 2810,
     "logo": "https://github.com/block-wallet/chain-images/blob/main/Morph.logo-Green.png?raw=true",
-    "nativeCurrencyIcon": "https://github.com/block-wallet/chain-images/blob/main/Morph.logo-Green.png?raw=true",
     "nativeCurrency": {
       "name": "ETH",
       "symbol": "ETH",
