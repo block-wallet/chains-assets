@@ -836,7 +836,7 @@
     "explorers": [
       {
         "name": "Morph Mainnet Explorer",
-        "url": "https://explorer.morphl2.io/",
+        "url": "https://explorer.morphl2.io",
         "standard": "none"
       }
     ]
